@@ -3,54 +3,54 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Quienes somos | Antonio's</title>
+	<title>Quienes somos | lo de Antonio</title>
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<!-- Iconos -->
 	<script src="https://kit.fontawesome.com/1020e6af6e.js" crossorigin="anonymous"></script>
-	<link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 	<!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+	<!-- CDN Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-	<header class="header" id="header">
-		<div class="header-top">
-			<ul class="header-top-lang">
-				<li>Español |</li>
-				<li title="¡Cooming soon!">English |</li>
-				<li title="¡Prossimamente!">Italiano |</li>	
-				<li title="¡近日公開!">日本語</li>
-			</ul>
+<div class="body-container">
+		<header class="header" id="header">
+		<ul class="header-lang">
+			<li><img src="../assets/img/spain.png"></li>
+			<li title="¡Cooming soon!"><img src="../assets/img/uk.png"></li>
+			<li title="¡Prossimamente!"><img src="../assets/img/italy.png"></li>	
+			<li title="¡近日公開!"><img src="../assets/img/japan.png"></li>
+		</ul>
 
-			<div class="header-top-redes">
-				<ul>
-					<p>Nuestras redes</p>
-					<li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
-					<li><a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
-					<li><a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
-				</ul>
-			</div>
+		<div class="header-redes">
+			<ul>
+				<p>Nuestras redes</p>
+				<li><a href="https://instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+				<li><a href="https://facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+				<li><a href="https://youtube.com"><i class="fa-brands fa-youtube fa-xl"></i></a></li>
+			</ul>
 		</div>
-
-		<nav class="nav">
-			<ul class="nav__list">
-				<a class="nav__logo"><img src=""></a>
-
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="./quienessomos.html">Quienes Somos</a></li>
-				<li id="nav__list__menu"><a href="./menu.html">Menú</a>
-					<ul class="nav__list__menu">
-						<li><a href=""></a>Burguers</li>
-						<li><a href=""></a>Kebabs</li>
-						<li><a href=""></a>SteakHouse</li>
-						<li><a href=""></a>Tapeo</li>
-					</ul>
-				</li>
-				<li><a href="./eventos.html">Eventos</a></li>
-				<button class="btn-reservas"><a href="./reservas.html">Reservar</a></button>
-			</ul>
-		</nav>
 	</header>
+
+	<nav class="nav">
+		<ul class="nav__list">
+			<a a href="../index.html" class="nav__logo"><img src="../assets/img/favicon1.png"></a>
+			<li><a href="../index.html">Inicio</a></li>
+			<li><a href="quienessomos.html">Quienes Somos</a></li>
+			<li id="nav__list__menu"><a href="menu.html">Menú</a>
+				<ul class="nav__list__menu">
+					<li><a href=""></a>Burguers</li>
+					<li><a href=""></a>Kebabs</li>
+					<li><a href=""></a>SteakHouse</li>
+					<li><a href=""></a>Tapeo</li>
+				</ul>
+			</li>
+			<li><a href="./eventos.html">Eventos</a></li>
+			<button class="btn-reservas"><a href="reservas.html">Reservar</a></button>
+		</ul>
+	</nav>
 
 	<main>
 		<div class="main-quienes">
@@ -89,9 +89,14 @@
 			<div class="footer__div"><h4>Sobre Nosotros</h4></div>
 			<div class="footer__div"><h4>Contacto</h4></div>
 			<div class="footer__div"><h4>Ubicación</h4></div>
-			<a class="btn-up" href="#header">Volver arriba</a>
 		</div>
+		<a class="btn-up" href="#header">Volver arriba</a>
 	</footer>
+</div> <!-- Cierre del body-container -->
+
+	<!-- Wow.js -->
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
 
 </body>
 </html>
