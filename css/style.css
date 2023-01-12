@@ -1,100 +1,153 @@
-/* ----- RESET ----- */
+				/* ---------- RESET ---------- */
 
 * {
-	padding: 0px;
+	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', "Times New Roman", Times, serif;
 	font-weight: 300;
-	background-color: rgb(15, 15, 15);
 	color: rgb(230, 230, 230);
-	font-size: 16px;
+	font-size: 18px;
 }
 
-
 /* ----- Formato predeterminado para los títulos ----- */
-
 .titulo {
 	text-align: center;
 	text-shadow: 2px 2px 5px rgb(190, 190, 190);
 	font-size: 60px;
 	letter-spacing: 2px;
+	color: rgb(15, 15, 15);
+}
+
+.body-container {
+	background-color: rgb(15, 15, 15);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: "header"
+						 "nav"
+						 "body"
+						 "footer";
 }
 
 
 
-/* ----- HEADER ----- */
+					/* ---------- HEADER ---------- */
 
-.header-top {
+
+.header {
+	grid-area: header;
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 8vh;
+}
+.header li {
+	display: inline;
+}
+
+.header-lang {
+	margin: 10px;
+	display: flex;
 	align-items: flex-start;
 }
-
-.header-top-lang {
-	list-style-type: none;
+.header-lang li {
 	display: inline;
-	margin: 10px;
+}
+.header-lang li img {
+	width: 26px;
+	height: 20px;
+	margin: 0 3px;
 }
 
-.header-top-redes {
+.header-redes {
 	display: inline-grid;
+	justify-items: end;
 	list-style-type: none;
-	margin: 10px;
-	grid-template-areas: "head head head" 
-						 "foot foot foot";
+	margin: 10px 0px 0px 10px;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto;
+	grid-template-areas: "head" 
+						 "foot";
 }
-.header-top-redes p {
-	grid-area: head;
-	margin-right: 5px;
+.header-redes ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-.header-top-redes li {
+.header-redes li {
 	grid-area: foot;
-	margin-left: 13px;
+	margin: 0 10px;
+}
+.header-redes p {
+	font-size: 18px;
+	width: 100%;
+	flex-shrink: 0;
+	grid-area: head;
+	text-align: center;
+	margin-bottom: 3px;
+}
+.header-lang li img:hover, .header-redes i:hover{
+	opacity: .5;
 }
 
-.header-top-lang li, .header-top-redes li {
-	display: inline;
-	color: rgb(230, 230, 230);
-}
-.header-top-lang a, .header-top-redes i {
-	text-decoration: none;
-	color: rgb(230, 230, 230);
-}
-.header-top-lang li:hover, .header-top-redes i:hover{
-	color: rgb(190, 190, 190);
-}
 
 
-
-/* ----- BARRA DE NAVEGACIÓN ---- */
+					/* ---------- BARRA DE NAVEGACIÓN --------- */
 
 .nav {
-	display: flex;
-	border: solid 3px rgb(128, 0, 0);
+	background: rgba(128, 0, 0, .8);
+	border: solid 3px rgb(150, 150, 150);
 	border-radius: 5px;
-	margin: 5vh 8vh;
-	position: sticky;	/* no me funciona el sticky. No sé porqué*/
-	top: 10vh;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 5vh;
+	position: sticky;
+	top: 10px;
 	z-index: 100;
+	padding: 3px;
+}
+.nav__list {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.nav__list li a, .btn-reservas a {
+	/*Sacar subrayado*/	
+	text-decoration: none;
 }
 
+.nav__logo {
+	flex-shrink: 0;
+	margin: 0 20px;
+}
 .nav__logo img {
-	margin: 10px;
-	height: 80px;
+	width: 68px;
 }
-
+.nav__logo:hover{
+	opacity: .7;
+}
 .nav__list li {
+	flex-grow: 1;
 	display: inline-block;
-	position: relative;
-	margin: 10px;
-	padding: 5px;
+	margin: 5px 15px;
+	padding: 5px 10px;
+	background-color: rgba(15, 15, 15,.8);
 	border: outset 2px rgb(190, 190, 190);
 	border-radius: 3px;
+	letter-spacing: 2px;
+	text-align: center;
 }
-
-.nav__list li a, .btn-reservas a {	/*Sacar subrayado*/
-	text-decoration: none;
+.btn-reservas {
+	flex-grow: 1;
+	display: inline-block;
+	margin: 5px 15px;
+	padding: 5px 10px;
+	background-color: rgb(128, 0, 0);
+	border: outset 2px rgb(190, 190, 190);
+	border-radius: 3px;
+	letter-spacing: 2px;
+	text-align: center;
 }
 
 .nav__list li:hover {
@@ -102,53 +155,47 @@
 	color: rgb(190, 190, 190);
 	border: outset 2px rgb(140, 140, 140);
 }
-/* el background en hover solo cubre al <li>, no al <a>.
-si le pongo también al <a> se cambian independientemente*/
+.btn-reservas:hover {
+	background-color: rgb(51, 00, 00);
+	color: rgb(190, 190, 190);
+	border: outset 2px rgb(140, 140, 140);
+}
 
 .nav__list__menu {
 	display: none;
 	position: absolute;
-	border: solid 2px rgb(128, 0, 0);
+	background: rgb(128, 0, 0);
+	border: solid 3px rgb(150, 150, 150);
+	padding: 10px;
 }
-
 .nav__list__menu li {
-
+	margin: 10px;
 }
-
 #nav__list__menu:hover > .nav__list__menu {
 	display: flex;
+	top: 80px;
 	flex-direction: column;
 	z-index: 100;
 }
 
-.btn-reservas {
-	display: inline-block;
-	margin: 10px;
-	padding: 5px;
-	border: outset 2px rgb(154, 0, 0);
+
+
+
+					/* ---------- FOOTER ---------- */
+
+footer {
+	grid-area: footer;
 }
-.btn-reservas:hover {
-	background-color: rgb(51, 00, 00);
-	color: rgb(190, 190, 190);
-	border: outset 2px rgb(128, 0, 0);
-}
-
-
-
-/* ----- FOOTER ----- */
-
 .footer {
-	height: 30vh;
-	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
 
 .footer__div {
-	display: inline-block;
-	position: relative;
+	flex-grow: 1;
+	margin: .5%;
 	border: outset 2px rgb(190, 190, 190);
-	height: 100%;
-	width: 33%;
-	margin: 20px 0;
+	height: 30vh;
 }
 
 .footer__div h4 {
@@ -157,11 +204,12 @@ si le pongo también al <a> se cambian independientemente*/
 	text-decoration: underline;
 }
 
-.btn-up {  /*posicionarlo*/
+.btn-up {
+	display: inline-block;
 	text-decoration: none;
 	border: outset 2px rgb(190, 190, 190);
 	padding: 5px;
-	margin-top: 10px;
+	margin: 10px;
 }
 
 .btn-up:hover {
@@ -172,7 +220,8 @@ si le pongo también al <a> se cambian independientemente*/
 
 
 
-/* ---- PÁGINA INDEX ---- */
+					/* --------- PÁGINA INDEX --------- */
+
 
 .parallax {
 	background-image:url("https://cdn.pixabay.com/photo/2018/07/14/15/27/cafe-3537801_960_720.jpg");
@@ -213,7 +262,7 @@ si le pongo también al <a> se cambian independientemente*/
 .main-buttonReservas {
 	display: inline-block;
 	position: relative;
-	left: 35%;		/* No sé como centrarlo bien en el medio*/
+	left: 35%;
 	margin: 3%;
 	padding: 1%;
 	border: outset 2px rgb(154, 0, 0);
@@ -235,7 +284,8 @@ si le pongo también al <a> se cambian independientemente*/
 
 
 
-/* ---- PÁGINA QUIENES SOMOS ---- */
+					/* --------- PÁGINA QUIENES SOMOS --------- */
+
 
 .main-quienes p {
 	margin: 5%;
@@ -255,7 +305,8 @@ si le pongo también al <a> se cambian independientemente*/
 
 
 
-/* ---- PÁGINA MENU ---- */
+					/* --------- PÁGINA MENU --------- */
+
 
 .main-menu {
 	width: 100%;
@@ -296,7 +347,8 @@ si le pongo también al <a> se cambian independientemente*/
 
 
 
-/* ---- PÁGINA EVENTOS ---- */
+					/* --------- PÁGINA EVENTOS --------- */
+
 
 .main-eventos {
 	display: flex;
@@ -320,7 +372,8 @@ si le pongo también al <a> se cambian independientemente*/
 
 
 
-/* ---- PÁGINA RESERVAS ---- */
+					/* --------- PÁGINA RESERVAS --------- */
+
 
 .main-reservas {
 	display: flex;
@@ -339,91 +392,127 @@ si le pongo también al <a> se cambian independientemente*/
 
 
 
-/* ------- RESPONSIVE ------- */
+
+								/* __________ 	RESPONSIVE 	TABLET	__________ */
+
+
+@media screen and (max-width: 856px) { /* Puse esta medida porque hasta ahí se mantienen bien ordenados los elementos */
+
+
+* {
+	font-size: 16px;
+}
+
+
+
+		/* ---------- HEADER ---------- */
+
+.header {
+	margin-bottom: 0;
+}
+.header-redes p {
+	display: none;
+}
+
+
+
+		/* ---------- NAV---------- */
+
+.nav {
+	top: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+.nav__logo {
+	margin: 1px;
+	height: 42px;
+	width: 42px;	
+}
+.nav__logo img {
+	height: 42px;
+	width: 42px;
+}
+
+.nav__list li {
+	margin: 0 8px;
+	padding: 5px;
+	letter-spacing: 0;
+	flex-grow: 1;
+	text-align: center;
+}
+.btn-reservas {
+	margin: 0 8px;
+	padding: 5px;
+	letter-spacing: 0;
+	flex-grow: 1;
+	text-align: center;
+}
+
+
+
+		/* ---------- FOOTER ---------- */
+
+.footer {
+	display: block;
+}
+.footer__div h4 {
+	font-size: 16px;
+}
+
+
+
+
+/* ---------- PÁGINA QUIENES SOMOS---------- */
+
+main {
+	margin-top: 10px;
+}
+
+.parallax__text {
+	font-weight: 500;
+	margin: auto;
+	left: 30%;
+}
+
+.h1-index {
+	font-size: 40px;
+}
+
+
+
+}
+
+
+		
+
+								/*_________ 	RESPONSIVE 	MOBILE	_________ */
 
 
 @media screen and (max-width: 600px) {
 
-/* ----- HEADER ----- */
-
-
-.header-top {
-	display: flex;
-	justify-content: space-between;
-	margin: 5px;
-}
-
-.header-top-lang {
-	display: flex;
-	list-style-type: none;
-}
-.header-top-lang li{
-	margin: 2px;
-}
-
-.header-top-redes {
-	display: flex;
-}
-.header-top-redes p {
-	display: none;
-}
-.header-top-redes li {
-	display: inline;
-	margin: 0 5px;
+* {
+	font-size: 12px;
 }
 
 
+		/* ---------- HEADER ---------- */
 
-/* ----- BARRA DE NAVEGACIÓN ---- */
-
-
-.nav {
-	display: flex;
-	flex-direction: column;
-	border: solid 3px rgb(128, 0, 0);
-	width: 100%;
-	height: 15vh;
-}
-.nav ul li, .nav ul button{
-	display: none;
-
-}
-
-#nav__list__menu ul {
+.header {
 	display: none;
 }
 
 
-/* ----- FOOTER ----- */
+		/* ---------- NAV ---------- */
 
-.footer {
-	height: 30vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+.nav__list li, .btn-reservas {
+	display: none;
 }
 
-.footer__div {
-	display: block;
-	width: 100%;
-}
+
+		/* ---------- FOOTER ---------- */
 
 .footer__div h4 {
 	font-size: 12px;
-	margin: 5px;
-	text-decoration: underline;
-}
-.footer__div p {
-	font-size: 9px;
-	padding: 5px;
-}
-
-.btn-up {  /*posicionarlo*/
-	padding: 5px;
-	font-size: 10px;
-	width: 20%;
-	margin-top: 5px;
-	margin-left: 30%;
 }
 
 
