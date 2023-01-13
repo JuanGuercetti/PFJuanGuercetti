@@ -1,0 +1,11 @@
+logo se ve raro
+
+texto dentr de botones no está alineado verticalmente
+
+titulo no queda bien centrado cuando se cambia el tamaño de la ventana
+lo mismo con el botón reservas antes de footer
+
+no sé donde poner el boton volver arriba
+
+tamaño de las imágenes en página "Quienes somos". No sé que dimensiones ponerle.
+Tampoco cuando se cambia el tamaño de la ventana
