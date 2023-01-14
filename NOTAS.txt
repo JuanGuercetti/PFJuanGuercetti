@@ -9,3 +9,5 @@ no sé donde poner el boton volver arriba
 
 tamaño de las imágenes en página "Quienes somos". No sé que dimensiones ponerle.
 Tampoco cuando se cambia el tamaño de la ventana
+
+divs en eventos. Usé medidas fijas porque se me deformaba
