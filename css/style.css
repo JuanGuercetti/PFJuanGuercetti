@@ -9,6 +9,9 @@
 	color: rgb(230, 230, 230);
 	font-size: 18px;
 }
+a {	/* Agregué este bloque porque bootstrap me cambiá el color */
+	color: rgb(230, 230, 230);
+}
 
 /* ----- Formato predeterminado para los títulos ----- */
 .titulo {
@@ -41,7 +44,6 @@
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	margin-bottom: 8vh;
 }
 .header li {
 	display: inline;
@@ -96,7 +98,7 @@
 
 					/* ---------- BARRA DE NAVEGACIÓN --------- */
 
-.nav {
+.navegador {
 	background: rgba(128, 0, 0, .8);
 	border: solid 3px rgb(150, 150, 150);
 	border-radius: 5px;
@@ -108,27 +110,27 @@
 	z-index: 100;
 	padding: 3px;
 }
-.nav__list {
+.nav-list {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 }
-.nav__list li a, .btn-reservas a {
+.nav-list li a, .btn-reservas a {
 	/*Sacar subrayado*/	
 	text-decoration: none;
 }
 
-.nav__logo {
+.nav-logo {
 	flex-shrink: 0;
 	margin: 0 20px;
 }
-.nav__logo img {
+.nav-logo img {
 	width: 68px;
 }
-.nav__logo:hover{
+.nav-logo:hover{
 	opacity: .7;
 }
-.nav__list li {
+.nav-list li {
 	flex-grow: 1;
 	display: inline-block;
 	margin: 5px 15px;
@@ -151,7 +153,7 @@
 	text-align: center;
 }
 
-.nav__list li:hover {
+.nav-list li:hover {
 	background-color: rgb(40, 40, 40);
 	color: rgb(190, 190, 190);
 	border: outset 2px rgb(140, 140, 140);
@@ -162,24 +164,24 @@
 	border: outset 2px rgb(140, 140, 140);
 }
 
-.nav__list__menu {
+.nav-list-menu {
 	display: none;
 	position: absolute;
 	background: rgb(128, 0, 0);
 	border: solid 3px rgb(150, 150, 150);
 	padding: 10px;
 }
-.nav__list__menu li {
+.nav-list-menu li {
 	margin: 10px;
 }
-#nav__list__menu:hover > .nav__list__menu {
+#nav-list-menu:hover > .nav-list-menu {
 	display: flex;
 	top: 80px;
 	flex-direction: column;
 	z-index: 100;
 }
 
-.nav__list .nav__menuIcon{
+.nav-list .nav-menuIcon{
 	display: none;
 }
 
@@ -226,7 +228,7 @@ footer {
 					/* --------- PÁGINA INDEX --------- */
 
 
-.parallax {
+.main-image {
 	background-image:url("../assets/img/frente1.jpg");
 	background-attachment: fixed;
 	background-position: center;
@@ -237,7 +239,7 @@ footer {
 	position: relative
 }
 
-.parallax__text {
+.main-image-text {
 	background-color: rgb(190, 190, 190, .5);;
 	color: rgb(15, 15, 15);
 	font-weight: 500;
@@ -251,7 +253,7 @@ footer {
  	transform: translate(-50%, -50%);
 }
 
-.h1-index {
+.main-image-title {
 	background-color: transparent;
 	color: rgb(15, 15, 15);
 	text-shadow: 2px 2px 5px rgb(190, 190, 190);
@@ -293,20 +295,17 @@ footer {
 
 					/* --------- PÁGINA QUIENES SOMOS --------- */
 
-
-.main-quienes p {
+.carousel {
+	width: 90%;
 	margin: 5%;
 }
-
-.img-container {
-	display: flex;
+.carousel-inner {
 	width: 100%;
-	justify-content: space-around;
+	height: 80vh;
 }
 
-.img-container img {
-	height: 80%;
-	width: 30%;
+.quienes-text {
+	margin: 5%;
 }
 
 
@@ -389,7 +388,40 @@ footer {
 					/* --------- PÁGINA RESERVAS --------- */
 
 
-.main-reservas {
+.reservas-form {
+	margin: 5%;
+	padding: 40px;
+	background: rgba(128, 0, 0, .3);
+	color: rgb(30, 30, 30);
+	border: outset 3px rgb(190, 190, 190);
+	border-radius: 5px;
+}
+
+.reservas-form label, .reservas-form legend {
+	color: rgb(220, 220, 220);
+	font-weight: 300;
+	text-align: center;
+}
+
+.form-control {
+	width: 50%;
+}
+
+.form-select {
+	width: 30%;
+	margin: 0 12px;
+}
+.form-select option{
+	color: rgb(30, 30, 30);
+}
+.form-comentarios {
+	width: 80%;
+	height: 150px;
+}
+
+
+
+/*.main-reservas {
 	display: flex;
 	width: 100%;
 	margin: 10vh;
@@ -401,7 +433,7 @@ footer {
 
 .main-reservas div {
 	margin: 10px;
-}
+}	*/
 
 
 
@@ -435,22 +467,22 @@ footer {
 
 		/* ---------- NAV---------- */
 
-.nav {
+.navegador {
 	top: 0;
 	width: 100%;
 	margin-bottom: 0;
 }
-.nav__logo {
+.nav-logo {
 	margin: 1px;
 	height: 42px;
 	width: 42px;	
 }
-.nav__logo img {
+.nav-logo img {
 	height: 42px;
 	width: 42px;
 }
 
-.nav__list li {
+.nav-list li {
 	margin: 0 8px;
 	padding: 5px;
 	letter-spacing: 0;
@@ -481,6 +513,11 @@ footer {
 
 		/* ---------- INDEX ---------- */
 
+.main-image {
+	width: 100%;
+	margin: 0;
+}
+
 .main-buttonReservas {
 	left: 35%;
 	margin-top: 50px;
@@ -498,13 +535,13 @@ main {
 	margin-top: 10px;
 }
 
-.parallax__text {
+.main-image {
 	font-weight: 500;
 	margin: auto;
 	left: 30%;
 }
 
-.h1-index {
+.main-image-title {
 	font-size: 40px;
 }
 
@@ -565,10 +602,10 @@ main {
 
 		/* ---------- NAV ---------- */
 
-.nav__list li, .btn-reservas {
+.nav-list li, .btn-reservas {
 	display: none;
 }
-.nav__list .nav__menuIcon{
+.nav-list .nav-menuIcon{
 	display: inline;
 	margin: 20px 15px;
 }
