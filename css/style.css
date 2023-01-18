@@ -362,23 +362,21 @@ footer {
 
 
 .main-eventos {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-content: space-between;
 	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 
 .main-eventos div {
 	border: outset 3px rgb(190, 190, 190);
-	width: 530px;
-	height: 360px;
-	margin: 1% 2%;
+	background: linear-gradient(to left top,rgba(15, 15, 15,.5),rgba(100, 0, 0,.5));
+	margin: 3%;
 }
 .main-eventos div p {
 	margin: 10px;
 	text-align: justify;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .main-eventos div img {
@@ -521,6 +519,23 @@ main {
 	top: 45%;
 }
 
+
+
+		/* ---------- EVENTOS---------- */
+
+.main-eventos {
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: 1fr;
+}
+
+.main-eventos div {
+	width: 96%;
+	margin: 10px;
+}
+.main-eventos div p {
+	font-size: 16px;
+}
+
 }
 
 
@@ -598,6 +613,17 @@ main {
 
 .image-text {
 	top: 45%;
+}
+
+
+		/* ---------- EVENTOS---------- */
+
+.main-eventos div {
+	width: 100%;
+	margin: 10px 0;
+}
+.main-eventos div p {
+	font-size: 14px;
 }
 
 }
