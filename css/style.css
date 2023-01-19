@@ -396,44 +396,54 @@ footer {
 	border: outset 3px rgb(190, 190, 190);
 	border-radius: 5px;
 }
-
 .reservas-form label, .reservas-form legend {
 	color: rgb(220, 220, 220);
 	font-weight: 300;
 	text-align: center;
 }
 
-.form-control {
+.form-datos {
 	width: 50%;
+	padding: 5px;
+	border: outset 2px rgb(220, 220, 220);
+	border-radius: 10px;
+	background-color: rgb(30, 30, 30);
+}
+.form-datos:focus {
+	border: groove 2px rgb(150, 150, 150);
+	background-color: rgb(60, 60, 60);
 }
 
-.form-select {
-	width: 30%;
-	margin: 0 12px;
+.form-selection {
+	padding: 5px;
+	border: outset 2px rgb(220, 220, 220);
+	border-radius: 10px;
+	background-color: rgb(30, 30, 30);
 }
-.form-select option{
-	color: rgb(30, 30, 30);
+.form-selection option{
+	color: rgb(220, 220, 220);
 }
+.form-selection:focus{
+	border: groove 2px rgb(150, 150, 150);
+	background-color: rgb(60, 60, 60);
+}
+
+.form-check-input:checked {
+	background: green;
+}
+
 .form-comentarios {
 	width: 80%;
 	height: 150px;
+	border: outset 2px rgb(220, 220, 220);
+	border-radius: 10px;
+	background-color: rgb(30, 30, 30);
+	font-size: 14px;
 }
-
-
-
-/*.main-reservas {
-	display: flex;
-	width: 100%;
-	margin: 10vh;
+.form-comentarios:focus {
+	border: groove 2px rgb(150, 150, 150);
+	background-color: rgb(60, 60, 60);
 }
-
-.main-reservas form {
-	width: 90%;
-}
-
-.main-reservas div {
-	margin: 10px;
-}	*/
 
 
 

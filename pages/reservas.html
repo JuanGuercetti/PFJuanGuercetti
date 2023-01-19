@@ -84,22 +84,22 @@
 
 <form class="reservas-form">
   <div class="row mb-3">
-    <label class="col-sm col-form-label">Nombre y Apellido</label>
+    <label class="col-sm">Nombre y Apellido</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control">
+      <input type="text" class="form-datos">
     </div>
   </div>
   <div class="row mb-3">
-    <label class="col-sm col-form-label">Email</label>
+    <label class="col-sm">Email</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control">
+      <input type="text" class="form-datos">
     </div>
   </div>
 
   <div class="row mb-3">
-  	<div class="col-2"></div>
-  	<select class="form-select">
-  		<option selected>Cantidad de comensales</option>
+    <label class="col-sm">Cantidad de comensales</label>
+    <div class="col-sm-10">
+      <select class="form-selection">
  			<option value="1">1</option>
   		<option value="2">2</option>
   		<option value="3">3</option>
@@ -107,22 +107,22 @@
   		<option value="5">5</option>
   		<option value="6">6</option>
   		<option value="7">Más de 6</option>
-		</select>
+  		</select>
+    </div>
   </div>
 
-
   <fieldset class="row mb-3">
-    <legend class="col-form-label col-sm pt-0">Turno</legend>
+    <legend class="col-form-label col-sm">Turno</legend>
     <div class="col-sm-10">
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-        <label class="form-check-label" for="gridRadios1">
+        <input class="form-check-input" type="radio" name="gridRadios1"checked>
+        <label class="form-check-label">
           Almuerzo
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-        <label class="form-check-label" for="gridRadios2">
+        <input class="form-check-input" type="radio" name="gridRadios1">
+        <label class="form-check-label">
           Cena
         </label>
       </div> 
@@ -133,20 +133,20 @@
     <legend class="col-form-label col-sm pt-0">Preferencia de lugar</legend>
     <div class="col-sm-10">
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option1" checked>
-        <label class="form-check-label" for="gridRadios3">
+        <input class="form-check-input" type="radio" name="gridRadios2" checked>
+        <label class="form-check-label">
           Frente del local
         </label>
       </div>
       <div class="col-sm-10">
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option2" checked>
-        <label class="form-check-label" for="gridRadios4">
+        <input class="form-check-input" type="radio" name="gridRadios2"checked>
+        <label class="form-check-label">
           Patio trasero
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option3">
+        <input class="form-check-input" type="radio" name="gridRadios2">
         <label class="form-check-label" for="gridRadios5">
           Interior
         </label>
@@ -157,7 +157,7 @@
   <div class="row mb-3">
     <label class="col-sm col-form-label">Aclaraciones</label>
     <div class="col-sm-10">
-      <input type="text" class="form-comentarios" placeholder="Por favor indique cantidad de comensales si son mayor a 6, presencia de menores, alergías alimenticias y cualquier otro comentario que considere pertinente. <br>Gracias">
+      <input type="text" class="form-comentarios" placeholder="">
     </div>
   </div>
 
