@@ -41,17 +41,32 @@
 .navbar-nav {
 	width: 100%;
 }
-.nav-item {
+.nav-item, .nav-item a {
 	display: inline;
 	margin: 0 15px;
 	letter-spacing: 2px;
-	text-align: center;
+	border-radius: 5px;
+	color: rgb(230, 230, 230);
+	text-decoration: none;
 }
 
+.nav-item:hover{
+	background-color: rgb(40, 40, 40,.5);
+}
+
+.nav-link {
+	color: rgb(230, 230, 230);
+}
 .dropdown-menu {
 	background: rgba(128, 0, 0, .8);
 	border: solid 3px rgb(150, 150, 150);
 	border-radius: 5px;
+}
+.dropdown-item {
+	color: rgb(230, 230, 230);
+}
+.dropdown-item:hover{
+	background-color: rgb(40, 40, 40,.5);
 }
 
 	
