@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', "Times New Roman", Times, serif;
+	font-weight: 300;
+	color: rgb(230, 230, 230);
+	font-size: 18px;
+}
+
+.relleno {
+	font-size: 100px;
+}
+
+.navbar{
+	background: rgba(128, 0, 0, .8);
+	border: solid 3px rgb(150, 150, 150);
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 90%;
+	padding: 0;
+	position: sticky;
+	top: 10px;
+	z-index: 100;
+	padding: 3px;
+}
+
+.navbar-brand {
+	height: 69px;
+}
+.nav-logo {
+	height: 100%;
+}
+.nav-logo:hover{
+	opacity: .7;
+}
+
+.navbar-collapse{
+	width: 100%;
+}
+.navbar-nav {
+	width: 100%;
+}
+.nav-item {
+	display: inline;
+	margin: 0 15px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.dropdown-menu {
+	background: rgba(128, 0, 0, .8);
+	border: solid 3px rgb(150, 150, 150);
+	border-radius: 5px;
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.navegador {
+	background: rgba(128, 0, 0, .8);
+	border: solid 3px rgb(150, 150, 150);
+	border-radius: 5px;
+	width: 90%;
+	margin-top: 500px;
+	position: sticky;
+	top: 10px;
+	z-index: 100;
+	padding: 3px;
+}
+.nav-list {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.nav-list li a, .btn-reservas a {
+	text-decoration: none;
+}
+
+.nav-logo {
+	flex-shrink: 0;
+	margin: 0 20px;
+}
+.nav-logo img {
+	width: 68px;
+}
+.nav-logo:hover{
+	opacity: .7;
+}
+.nav-list li {
+	flex-grow: 1;
+	display: inline-block;
+	margin: 5px 15px;
+	padding: 5px 10px;
+	background-color: rgba(15, 15, 15,.8);
+	border: outset 2px rgb(190, 190, 190);
+	border-radius: 3px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.btn-reservas {
+	flex-grow: 1;
+	display: inline-block;
+	margin: 5px 15px;
+	padding: 5px 10px;
+	background-color: rgb(128, 0, 0);
+	border: outset 2px rgb(190, 190, 190);
+	border-radius: 3px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.nav-list li:hover {
+	background-color: rgb(40, 40, 40);
+	color: rgb(190, 190, 190);
+	border: outset 2px rgb(140, 140, 140);
+}
+.btn-reservas:hover {
+	background-color: rgb(51, 00, 00);
+	color: rgb(190, 190, 190);
+	border: outset 2px rgb(140, 140, 140);
+}
+
+.nav-list-menu {
+	display: none;
+	position: absolute;
+	background: rgb(128, 0, 0);
+	border: solid 3px rgb(150, 150, 150);
+	padding: 10px;
+}
+.nav-list-menu li {
+	margin: 10px;
+}
+#nav-list-menu:hover > .nav-list-menu {
+	display: flex;
+	top: 80px;
+	flex-direction: column;
+	z-index: 100;
+}
+
+.nav-list .nav-menuIcon{
+	display: none;
+}
+
+*/
