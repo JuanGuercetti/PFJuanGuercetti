@@ -18,7 +18,9 @@
 </head>
 <body>
 <div class="body-container">
-		<header class="header" id="header">
+
+	<!-- HEADER -->
+	<header class="header" id="header">
 		<ul class="header-lang">
 			<li><img src="../assets/img/spain.png"></li>
 			<li title="¡Cooming soon!"><img src="../assets/img/uk.png"></li>
@@ -36,14 +38,16 @@
 		</div>
 	</header>
 
+	<!-- NAV -->
 	<nav class="navbar navbar-expand-sm" data-bs-theme="dark">
 	  <div class="container-fluid">
 	    <a class="navbar-brand" href="../index.html"><img class="nav-logo" src="../assets/img/favicon1.png"></a>
 
-	    <!-- Button y Span son para el responsive mobile -->
+	    <!-- Estos 2 span y el button son para el responsive mobile -->
+	    <span class="navbar-brand-responsive">lo de Antonio</span>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	     <span class="navbar-toggler-icon"></span>
-		</button>
+	     <i class="fa-solid fa-bars fa-lg"></i>
+			</button>
 
 	    <div class="collapse navbar-collapse">
 	      <ul class="navbar-nav">
@@ -69,11 +73,11 @@
 	        </li>
 	      </ul>
 	      <span class="nav-item"><a href="reservas.html">Reservas</a></span>
-
 	    </div>
 	  </div>
 	</nav>
 
+	<!-- MAIN -->
 	<main>
 		<h1 class="titulo">Quienes somos</h1>
 
@@ -84,51 +88,58 @@
     		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     		<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
  			</div>
-  	<div class="carousel-inner">
-    	<div class="carousel-item active">
-      	<img src="../assets/img/quienes1.jpg" class="d-block w-100">
-    	</div>
-    	<div class="carousel-item">
-      	<img src="../assets/img/quienes2.jpg" class="d-block w-100">
-    	</div>
-   		<div class="carousel-item">
-      	<img src="../assets/img/quienes3.jpg" class="d-block w-100">
-    	</div>
-    	<div class="carousel-item">
-      	<img src="../assets/img/quienes4.jpg" class="d-block w-100">
-    	</div>
-  	</div>
-  	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-   	 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  	</button>
-  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    	<span class="visually-hidden">Next</span>
-  	</button>
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      		<img src="../assets/img/quienes1.jpg" class="d-block w-100">
+    		</div>
+    		<div class="carousel-item">
+      		<img src="../assets/img/quienes2.jpg" class="d-block w-100">
+    		</div>
+   			<div class="carousel-item">
+      		<img src="../assets/img/quienes3.jpg" class="d-block w-100">
+    		</div>
+    		<div class="carousel-item">
+      		<img src="../assets/img/quienes4.jpg" class="d-block w-100">
+    		</div>
+  		</div>
+  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+   		 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Previous</span>
+  		</button>
+  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  		</button>
 		</div>
 
 		<div class="quienes-text">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim 	id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="quienes-text-div">
+				<h3>Nuestro trabajo se puede saborear</h3>
+				<p>La cocina de Antonio es lúcida, ligera y dinámica. Nuestra misión es crear comidas que involucren todos nuestros sentidos.</p>
+			</div>
+			<div class="quienes-text-div">
+				<div class="quienes-innerText">
+					<h3>Ubicado en zona rural</h3>
+					<p>El restaurante se encuentra ubicado a 5 minutos de la ciudad. La ubicación enfatiza la visión de claridad y diversidad gastronómica. Exploramos la zona de tensión entre lo urbano y lo natural.</p>
+				</div>
+				<div id="quienes-innerImg-1">
+					<img src="../assets/img/quienes5.jpg">
+				</div>
+			</div>
+			<div class="quienes-text-div">
+				<div id="quienes-innerImg-2">
+					<img src="../assets/img/quienes6.jpg">
+				</div>
+				<div class="quienes-innerText">
+					<h3>La inspiración de nuestra cocina</h3>
+					<p>Un comedor hermoso, creativo y luminoso con cocina abierta y bodega. La sala es ideal para cenas exclusivas, aniversarios, reuniones y otros eventos privados.</p>
+				</div>
+			</div>
 		</div>
 
 	</main>
 
+	<!-- FOOTER -->
 	<footer>
 		<div class="footer">
 			<div class="footer__div"><h4>Sobre Nosotros</h4></div>
