@@ -9,6 +9,7 @@
 	color: rgb(230, 230, 230);
 	font-size: 18px;
 }
+
 a {	/* Agregué este bloque porque bootstrap me cambiá el color */
 	color: rgb(230, 230, 230);
 }
@@ -37,7 +38,6 @@ a {	/* Agregué este bloque porque bootstrap me cambiá el color */
 
 
 					/* ---------- HEADER ---------- */
-
 
 .header {
 	grid-area: header;
@@ -90,6 +90,7 @@ a {	/* Agregué este bloque porque bootstrap me cambiá el color */
 	text-align: center;
 	margin-bottom: 3px;
 }
+
 .header-lang li img:hover, .header-redes i:hover{
 	opacity: .5;
 }
@@ -119,7 +120,6 @@ a {	/* Agregué este bloque porque bootstrap me cambiá el color */
 	padding: 8px;
 }
 
-
 .navbar-brand {
 	height: 69px;
 }
@@ -136,6 +136,7 @@ a {	/* Agregué este bloque porque bootstrap me cambiá el color */
 .navbar-nav {
 	width: 100%;
 }
+
 .nav-item, .nav-item a {
 	display: inline;
 	letter-spacing: 2px;
@@ -144,7 +145,6 @@ a {	/* Agregué este bloque porque bootstrap me cambiá el color */
 	text-decoration: none;
 	padding: 5px;
 }
-
 .nav-item:hover{
 	background-color: rgb(40, 40, 40,.7);
 }
@@ -152,6 +152,7 @@ a {	/* Agregué este bloque porque bootstrap me cambiá el color */
 .nav-link {
 	color: rgb(230, 230, 230);
 }
+
 .dropdown-menu {
 	background: rgba(128, 0, 0, .8);
 	border: outset 3px rgb(150, 150, 150);
@@ -209,7 +210,6 @@ footer {
 
 
 					/* --------- PÁGINA INDEX --------- */
-
 
 .main-image {
 	background-image:url("../assets/img/frente1.jpg");
@@ -293,7 +293,6 @@ footer {
 	font-size: 18px;
 }
 
-
 .main-buttonReservas {
 	width: 100%;
 }
@@ -348,7 +347,6 @@ footer {
 .quienes-text-div {
 	width: 100%;
 }
-
 .quienes-text-div:first-child {
 	margin: 100px 0;
 }
@@ -387,10 +385,7 @@ footer {
 
 
 
-
-
 					/* --------- PÁGINA MENU --------- */
-
 
 .main-menu {
 	width: 100%;
@@ -438,7 +433,6 @@ footer {
 
 					/* --------- PÁGINA EVENTOS --------- */
 
-
 .main-eventos {
 	width: 100%;
 	display: grid;
@@ -451,6 +445,7 @@ footer {
 	background: linear-gradient(to left top,rgba(15, 15, 15,.5),rgba(100, 0, 0,.5));
 	margin: 3%;
 }
+
 .main-eventos div p {
 	margin: 10px;
 	text-align: justify;
@@ -465,7 +460,6 @@ footer {
 
 
 					/* --------- PÁGINA RESERVAS --------- */
-
 	
 .reservas-form {
 	margin: 5%;
@@ -522,13 +516,10 @@ footer {
 
 
 
-
-
 								/* __________ 	RESPONSIVE 	TABLET	__________ */
 
 
 @media screen and (max-width: 856px) { /* Puse esta medida porque hasta ahí se mantienen bien ordenados los elementos */
-
 
 * {
 	font-size: 16px;
@@ -547,7 +538,6 @@ footer {
 .header-redes p {
 	display: none;
 }
-
 
 
 		/* ---------- NAV---------- */
@@ -579,9 +569,7 @@ footer {
 }
 
 
-
 		/* ---------- INDEX ---------- */
-
 
 .main-image-title {
 	font-size: 50px;
@@ -619,11 +607,9 @@ footer {
 }
 
 
-
 		/* ---------- QUIENES SOMOS---------- */
 
-
-.carousel, .carousel-indicators, .carousel-inner, .carousel-indicators {
+.carousel, .carousel-indicators, .carousel-inner {
 	height: auto;
 }
 
@@ -643,7 +629,6 @@ footer {
 	order: 20;
 	margin: 40px 0;
 }
-
 .quienes-innerText h3 {
 	padding-top: 0;
 }
@@ -655,12 +640,9 @@ footer {
 #quienes-innerImg-1 {
 	width: 100%;
 }
-
 #quienes-innerImg-2 {
 	width: 100%;
 }
-
-
 
 
 		/* ---------- MENÚ---------- */
@@ -672,7 +654,6 @@ footer {
 .image-text {
 	top: 45%;
 }
-
 
 
 		/* ---------- EVENTOS---------- */
@@ -693,7 +674,6 @@ footer {
 }
 
 
-		
 
 								/*_________ 	RESPONSIVE 	MOBILE	_________ */
 
@@ -723,7 +703,6 @@ footer {
 	display: inline;
 	font-size: 20px;
 }
-
 
 
 		/* ---------- FOOTER ---------- */
