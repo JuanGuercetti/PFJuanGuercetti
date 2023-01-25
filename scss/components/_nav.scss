@@ -1,0 +1,72 @@
+.navbar {
+	background: rgba(128, 0, 0, .8);
+	border: outset 3px rgb(150, 150, 150);
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 90%;
+	padding: 0;
+	position: sticky;
+	top: 10px;
+	z-index: 100;
+	padding: 3px;
+
+	&-brand-responsive {
+		display: none;
+	}
+
+	&-toggler {
+		padding: 8px;
+	}
+
+	&-brand {
+		height: 69px;
+	}
+
+	&-logo {
+		height: 100%;
+		&:hover {
+			opacity: .7;
+		}
+	}
+
+	&-collapse{
+		width: 100%;
+	}
+
+	&-nav {
+		width: 100%;
+	}
+}
+
+
+.nav-item, .nav-item a {
+	display: inline;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	color: rgb(230, 230, 230);
+	text-decoration: none;
+	padding: 5px;
+}
+.nav-item:hover{
+	background-color: rgba(40, 40, 40,.7);
+}
+
+.nav-link {
+	color: rgb(230, 230, 230);
+}
+
+.dropdown-menu {
+	background: rgba(128, 0, 0, .8);
+	border: outset 3px rgb(150, 150, 150);
+	border-radius: 5px;
+}
+.dropdown-menu li {
+	margin: 10px;
+}
+.dropdown-item {
+	color: rgb(230, 230, 230);
+}
+.dropdown-item:hover{
+	background-color: rgba(40, 40, 40,.7);
+}

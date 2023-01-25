@@ -1,0 +1,21 @@
+* {
+	font-family: 'Poppins', "Times New Roman", Times, serif;
+	font-weight: 300;
+	color: rgb(230, 230, 230);
+	font-size: 18px;
+}
+
+/* Agregué este bloque porque bootstrap me cambiá el color */
+a {	
+	color: rgb(230, 230, 230);
+}
+
+/* ----- Formato predeterminado para los títulos ----- */
+.titulo {
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(128, 0, 0);
+	font-size: 60px;
+	letter-spacing: 2px;
+	color: rgb(200, 200, 200);
+	margin: 50px;
+}

@@ -1,0 +1,10 @@
+.body-container {
+	background-color: rgb(15, 15, 15);
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: "header"
+						 "nav"
+						 "body"
+						 "footer";
+}
