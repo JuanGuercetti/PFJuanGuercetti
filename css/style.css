@@ -129,6 +129,9 @@ a {
   .dropdown-item:hover {
     background-color: rgba(40, 40, 40, 0.7); }
 
+#nav-reservas-responsive {
+  display: none; }
+
 footer {
   grid-area: footer; }
 
@@ -497,9 +500,23 @@ footer {
   .header {
     display: none; }
   /* NAV */
-  .navbar-brand-responsive {
-    display: inline;
-    font-size: 20px; }
+  .navbar {
+    background: maroon; }
+    .navbar .navbar-brand-responsive {
+      display: inline;
+      font-size: 20px; }
+  .dropdown-menu {
+    background: maroon;
+    border: none; }
+    .dropdown-menu li {
+      padding: 10px; }
+  .nav-item {
+    letter-spacing: 3px;
+    padding: 10px; }
+  #nav-reservas {
+    display: none; }
+    #nav-reservas-responsive {
+      display: inline; }
   /* FOOTER */
   .footer__div h4 {
     font-size: 12px; }

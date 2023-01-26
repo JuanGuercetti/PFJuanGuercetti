@@ -1,0 +1,6 @@
+modificar eventos porque es horrible
+
+terminar responsive en menu, eventos y reservas
+
+en menú se puede utilizar collapse de bootstrap
+
