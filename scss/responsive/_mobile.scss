@@ -26,6 +26,10 @@
 			display: inline;
 			font-size: 20px;
 		}
+
+		&-nav{
+			width: 50%;
+		}
 	}
 	
 	.dropdown-menu {
@@ -40,13 +44,12 @@
 	.nav-item {
 		letter-spacing: 3px;
 		padding: 10px;
-	}
+		border-bottom: 1px solid;
+		border-radius: 0;
 
-	#nav-reservas {
-		display: none;
-
-		&-responsive {
-			display: inline;
+		&:last-child {
+			position: static;
+			border: none;
 		}
 	}
 

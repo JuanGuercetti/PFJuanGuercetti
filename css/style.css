@@ -114,6 +114,12 @@ a {
 .nav-item:hover {
   background-color: rgba(40, 40, 40, 0.7); }
 
+.nav-item:last-child {
+  position: absolute;
+  right: 10px;
+  border-left: 1px solid #969696;
+  border-radius: 0; }
+
 .nav-link {
   color: #e6e6e6; }
 
@@ -128,9 +134,6 @@ a {
   color: #e6e6e6; }
   .dropdown-item:hover {
     background-color: rgba(40, 40, 40, 0.7); }
-
-#nav-reservas-responsive {
-  display: none; }
 
 footer {
   grid-area: footer; }
@@ -505,6 +508,8 @@ footer {
     .navbar .navbar-brand-responsive {
       display: inline;
       font-size: 20px; }
+    .navbar-nav {
+      width: 50%; }
   .dropdown-menu {
     background: maroon;
     border: none; }
@@ -512,11 +517,12 @@ footer {
       padding: 10px; }
   .nav-item {
     letter-spacing: 3px;
-    padding: 10px; }
-  #nav-reservas {
-    display: none; }
-    #nav-reservas-responsive {
-      display: inline; }
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-radius: 0; }
+    .nav-item:last-child {
+      position: static;
+      border: none; }
   /* FOOTER */
   .footer__div h4 {
     font-size: 12px; }
