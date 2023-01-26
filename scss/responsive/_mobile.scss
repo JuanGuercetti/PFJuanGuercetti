@@ -1,0 +1,104 @@
+@media screen and (max-width: 575px) {
+
+	* {
+		font-size: 14px;
+	}
+	.titulo {
+		font-size: 40px;
+		letter-spacing: 0;
+		margin: 30px;
+	}
+
+
+		/* HEADER */
+
+	.header {
+		display: none;
+	}
+
+
+		/* NAV */
+
+	.navbar-brand-responsive {
+		display: inline;
+		font-size: 20px;
+	}
+
+
+		/* FOOTER */
+
+	.footer__div h4 {
+		font-size: 12px;
+	}
+
+
+		/* INDEX */
+
+	.main-image-title {
+		font-size: 35px;
+	}
+
+	.main-texto p {
+		font-size: 16px;
+	}
+
+	.main-image2-title {
+		font-size: 25px;
+		padding: 5px;
+	}
+	.main-image2-text h3 {
+		font-size: 20px;
+	}
+
+	.main-index-div {
+
+		h3 {
+			font-size: 30px;
+		}
+
+		p {
+			font-size: 14px;
+		}
+	}
+
+	.buttonReservas {
+		margin: 25px 0 25px 0;
+
+		h3 {
+			font-size: 20px;
+			font-weight: 300;
+		}
+	}
+
+
+		/* QUIENES SOMOS */
+
+	.carousel, .carousel-indicators, .carousel-inner {
+		height: auto;
+	}
+
+
+		/* MENÚ */
+
+	.main-menu-item {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.image-text {
+		top: 45%;
+	}
+
+
+		/* EVENTOS */
+
+	.main-eventos div {
+		width: 100%;
+		margin: 10px 0;
+
+		p {
+			font-size: 14px;
+		}
+	}
+
+}

@@ -1,0 +1,58 @@
+.reservas-form {
+	margin: 5%;
+	padding: 40px;
+	background: rgba(128, 0, 0, .7);
+	color: rgb(30, 30, 30);
+	border: outset 3px rgb(190, 190, 190);
+	border-radius: 5px;
+
+	label, legend {
+		color: rgb(220, 220, 220);
+		font-weight: 300;
+		text-align: center;
+	}
+}
+
+.form-datos {
+	width: 50%;
+	padding: 5px;
+	border: outset 2px rgb(220, 220, 220);
+	border-radius: 10px;
+	background-color: rgb(30, 30, 30);
+
+	&:focus {
+		border: groove 2px rgb(150, 150, 150);
+		background-color: rgb(60, 60, 60);
+	}
+
+}
+
+.form-selection {
+	padding: 5px;
+	border: outset 2px rgb(220, 220, 220);
+	border-radius: 10px;
+	background-color: rgb(30, 30, 30);
+
+	option {
+		color: rgb(220, 220, 220);
+	}
+
+	&:focus{
+		border: groove 2px rgb(150, 150, 150);
+		background-color: rgb(60, 60, 60);
+	}
+}
+
+.form-comentarios {
+	width: 80%;
+	height: 150px;
+	border: outset 2px rgb(220, 220, 220);
+	border-radius: 10px;
+	background-color: rgb(30, 30, 30);
+	font-size: 14px;
+
+	&:focus {
+		border: groove 2px rgb(150, 150, 150);
+		background-color: rgb(60, 60, 60);
+	}
+}

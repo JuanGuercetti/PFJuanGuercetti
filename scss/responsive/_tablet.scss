@@ -1,0 +1,163 @@
+@media screen and (max-width: 856px) { /* Puse esta medida porque hasta ahí se mantienen bien ordenados los elementos */
+
+	* {
+		font-size: 16px;
+	}
+
+	.titulo {
+		font-size: 50px;
+		margin: 30px;
+	}
+
+
+		/* HEADER */
+
+	.header {
+		margin-bottom: 0;
+
+		&-redes p {
+			display: none;
+		}
+	}
+
+
+		/* NAV */
+
+	.navbar {
+		top: 0;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.nav-logo {
+		height: 80%;
+	}
+
+	.nav-item, .nav-item a {
+		letter-spacing: 0;
+		padding: 2px;
+	}
+
+
+		/* FOOTER */
+
+	.footer {
+		display: block;
+		margin-top: 50px;
+
+		&__div h4 {
+			font-size: 16px;
+		}
+	}
+
+
+		/* INDEX */
+
+	.main-image-title {
+		font-size: 50px;
+		font-weight: 400;
+		letter-spacing: 0;
+	}
+
+	.main-texto p {
+		font-size: 20px;
+		margin: 50px 0;
+	}
+
+	.main-image2-title {
+		font-size: 40px;
+		font-weight: 300;
+		letter-spacing: 0;
+	}
+
+	.main-index-div {
+
+		h3 {
+			font-size: 40px;
+			margin-bottom: 10px;
+		}
+
+		p {
+			font-size: 16px;
+		}
+	}
+
+	.buttonReservas {
+		padding: 15px;
+		margin: 50px 0 50px 0;
+		letter-spacing: 0px;
+
+		 h3 {
+			font-size: 25px;
+			font-weight: 300;
+		}
+	}
+
+
+		/* QUIENES SOMOS */
+
+	.carousel, .carousel-indicators, .carousel-inner {
+		height: auto;
+	}
+
+	.quienes-text-div {
+		display: flex;
+		flex-direction: column;
+
+		&:first-child {
+			margin: 50px 0;
+			padding: 5px;
+		}
+	}
+
+	.quienes-innerText {
+		width: 100%;
+		padding: 5px;
+		order: 20;
+		margin: 40px 0;
+
+		h3 {
+			padding-top: 0;
+		}
+	}
+
+	.quienes-text-div div {
+		display: block;
+	}
+
+	#quienes-innerImg-1 {
+		width: 100%;
+	}
+
+	#quienes-innerImg-2 {
+		width: 100%;
+	}
+
+
+		/* MENÚ */
+
+	.main-menu-item {
+		width: 80%;
+	}
+
+	.image-text {
+		top: 45%;
+	}
+
+
+		/* EVENTOS */
+
+	.main-eventos {
+		grid-template-rows: auto auto auto auto;
+		grid-template-columns: 1fr;
+
+		div {
+			width: 96%;
+			margin: 10px;
+
+			p {
+				font-size: 16px;
+			}	
+		}	
+	}
+}

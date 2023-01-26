@@ -1,5 +1,33 @@
+
+/* Reset */
 @import "../scss/normalize/reset";
 @import "../scss/normalize/estilos";
+
+
+/* Componentes del layout */
 @import "../scss/components/body";
 @import "../scss/components/header";
 @import "../scss/components/nav";
+@import "../scss/components/footer";
+
+
+/* Páginas */
+
+/* Index */
+@import "../scss/pages/index";
+/* Quienes somos */
+@import "../scss/pages/quienes";
+/* Menu */
+@import "../scss/pages/menu";
+/* Eventos */
+@import "../scss/pages/eventos";
+/* Reservas */
+@import "../scss/pages/reservas";
+
+
+/* Responsive */
+
+/* Tablet */
+@import "../scss/responsive/tablet";
+/* Mobile */
+@import "../scss/responsive/mobile";
