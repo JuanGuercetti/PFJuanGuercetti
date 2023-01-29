@@ -4,3 +4,7 @@ terminar responsive en menu, eventos y reservas
 
 en menú se puede utilizar collapse de bootstrap
 
+
+320 minimo responsive
+1920 máximo
+
