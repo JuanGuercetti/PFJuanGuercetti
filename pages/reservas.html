@@ -85,8 +85,8 @@
     <div class="main-reservas">
 
       <div class="main-reservas-div">
-        <h3>Reserva online</h3>
-        <p></p>
+        <h3>Reservas online</h3>
+        <p>Las reservas por este medio están disponibles hasta un máximo de 60 días de antelación. Por mayores plazos por favor comunicarse telefonicamente al númeroDeTelefono.</p>
         <h4>Resevas para más de 6 personas</h4>
         <p>Por favor seleccionar opción correspondiente y escribir el número de personas en el formulario de aclaraciones</p>
       </div>
@@ -101,77 +101,76 @@
           <input type="text" class="form-datos" placeholder="Email">
         </div>
 
-      <div class="container-fluid form-comensales">
-        <label class="col-sm">Cantidad de comensales</label>
-        <div class="col-sm-10">
-          <select class="form-selection">
- 			    <option value="1">1</option>
-  		    <option value="2">2</option>
-  		    <option value="3">3</option>
-  		    <option value="4">4</option>
-  		    <option value="5">5</option>
-  		    <option value="6">6</option>
-  		    <option value="7">Más de 6</option>
-  		    </select>
-        </div>
-      </div>
-
-      <fieldset class="container-fluid form-turno">
-        <legend class="col-form-label col-sm">Turno</legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios1"checked>
-            <label class="form-check-label">
-              Almuerzo
-            </label>
+        <div class="container-fluid form-comensales">
+          <label class="col-sm">Cantidad de comensales</label>
+          <div class="col-sm-10">
+            <select class="form-selection">
+ 			        <option value="1">1</option>
+  		        <option value="2">2</option>
+  		        <option value="3">3</option>
+  		        <option value="4">4</option>
+  		        <option value="5">5</option>
+  		        <option value="6">6</option>
+  		        <option value="7">Más de 6</option>
+  		      </select>
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios1">
-            <label class="form-check-label">
-              Cena
-            </label>
-          </div> 
         </div>
-      </fieldset>
 
-      <fieldset class="container-fluid">
-        <legend class="col-form-label col-sm pt-0">
-          Preferencia de lugar
-        </legend>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios2" checked>
-            <label class="form-check-label">
-              Frente del local
-            </label>
+        <fieldset class="container-fluid form-turno">
+          <legend class="col-form-label col-sm">Turno</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios1"checked>
+              <label class="form-check-label">
+                Almuerzo
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios1">
+              <label class="form-check-label">
+                Cena
+              </label>
+            </div> 
           </div>
-        <div class="col-sm-10">
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios2"checked>
-            <label class="form-check-label">
-              Patio trasero
-            </label>
+        </fieldset>
+
+        <fieldset class="container-fluid form-lugar">
+          <legend class="col-form-label col-sm pt-0">
+            Preferencia de lugar
+          </legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios2" checked>
+              <label class="form-check-label">
+                Frente del local
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios2"checked>
+              <label class="form-check-label">
+                Patio trasero
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios2">
+              <label class="form-check-label" for="gridRadios5">
+                Interior
+              </label>
+            </div> 
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios2">
-            <label class="form-check-label" for="gridRadios5">
-              Interior
-            </label>
-          </div> 
-        </div>
-      </fieldset>
+        </fieldset>
 
-      <div class="container-fluid">
-      <label class="col-sm col-form-label">Aclaraciones</label>
-        <div class="container-fluid">
-          <input type="text" class="form-comentarios">
+        <div class="container-fluid form-aclaraciones">
+          <label class="col-sm col-form-label">Aclaraciones</label>
+          <div class="container-fluid">
+            <input type="text">
+          </div>
         </div>
-      </div>
 
-      <button type="submit" class="btn btn-primary">
-        Confirmar reserva
-      </button>
-    </form>
+        <button type="submit" class="btn btn-primary">
+          Confirmar reserva
+        </button>
+      </form>
     </div>
 	</main>
 
