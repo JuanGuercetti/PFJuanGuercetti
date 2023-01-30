@@ -81,27 +81,27 @@
 
   <!-- MAIN -->
 	<main>
-    <h1 class="titulo">Reservas</h1>
 
-    <form class="reservas-form">
+    <div class="main-reservas">
 
-      <div class="row mb-3">
-      <label class="col-sm">Nombre y Apellido</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-datos">
-        </div>
+      <div class="main-reservas-div">
+        <h3>Reserva online</h3>
+        <p></p>
+        <h4>Resevas para más de 6 personas</h4>
+        <p>Por favor seleccionar opción correspondiente y escribir el número de personas en el formulario de aclaraciones</p>
       </div>
 
-      <div class="row mb-3">
-        <label class="col-sm">
-          Email
-        </label>
-        <div class="col-sm-10">
-          <input type="text" class="form-datos">
-        </div>
-      </div>
+      <form class="main-reservas-form">
 
-      <div class="row mb-3">
+        <div class="container-fluid">
+          <input type="text" class="form-datos" placeholder="Nombre y Apellido">
+        </div>
+
+        <div class="container-fluid">
+          <input type="text" class="form-datos" placeholder="Email">
+        </div>
+
+      <div class="container-fluid form-comensales">
         <label class="col-sm">Cantidad de comensales</label>
         <div class="col-sm-10">
           <select class="form-selection">
@@ -116,7 +116,7 @@
         </div>
       </div>
 
-      <fieldset class="row mb-3">
+      <fieldset class="container-fluid form-turno">
         <legend class="col-form-label col-sm">Turno</legend>
         <div class="col-sm-10">
           <div class="form-check">
@@ -134,11 +134,10 @@
         </div>
       </fieldset>
 
-      <fieldset class="row mb-3">
+      <fieldset class="container-fluid">
         <legend class="col-form-label col-sm pt-0">
           Preferencia de lugar
         </legend>
-
         <div class="col-sm-10">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="gridRadios2" checked>
@@ -146,7 +145,6 @@
               Frente del local
             </label>
           </div>
-
         <div class="col-sm-10">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="gridRadios2"checked>
@@ -163,10 +161,10 @@
         </div>
       </fieldset>
 
-      <div class="row mb-3">
+      <div class="container-fluid">
       <label class="col-sm col-form-label">Aclaraciones</label>
-        <div class="col-sm-10">
-          <input type="text" class="form-comentarios" placeholder="">
+        <div class="container-fluid">
+          <input type="text" class="form-comentarios">
         </div>
       </div>
 
@@ -174,6 +172,7 @@
         Confirmar reserva
       </button>
     </form>
+    </div>
 	</main>
 
 

@@ -354,49 +354,65 @@ footer {
     border-right: solid 1px white; }
 
 /* Reservas */
-.reservas-form {
-  margin: 5%;
-  padding: 40px;
-  background: rgba(128, 0, 0, 0.7);
-  color: #1e1e1e;
-  border: outset 3px #bebebe;
-  border-radius: 5px; }
-  .reservas-form label, .reservas-form legend {
-    color: gainsboro;
-    font-weight: 300;
+.main-reservas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 10vh; }
+  .main-reservas-div {
+    width: 45%;
     text-align: center; }
-
-.form-datos {
-  width: 50%;
-  padding: 5px;
-  border: outset 2px gainsboro;
-  border-radius: 10px;
-  background-color: #1e1e1e; }
-  .form-datos:focus {
-    border: groove 2px #969696;
-    background-color: #3c3c3c; }
-
-.form-selection {
-  padding: 5px;
-  border: outset 2px gainsboro;
-  border-radius: 10px;
-  background-color: #1e1e1e; }
-  .form-selection option {
-    color: gainsboro; }
-  .form-selection:focus {
-    border: groove 2px #969696;
-    background-color: #3c3c3c; }
-
-.form-comentarios {
-  width: 80%;
-  height: 150px;
-  border: outset 2px gainsboro;
-  border-radius: 10px;
-  background-color: #1e1e1e;
-  font-size: 14px; }
-  .form-comentarios:focus {
-    border: groove 2px #969696;
-    background-color: #3c3c3c; }
+    .main-reservas-div h3 {
+      margin-top: 20%; }
+    .main-reservas-div h4 {
+      margin-top: 30%; }
+  .main-reservas-form {
+    padding: 40px;
+    width: 45%;
+    background: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gainsboro;
+    font-weight: 300; }
+    .main-reservas-form div {
+      margin: 10px; }
+    .main-reservas-form label, .main-reservas-form legend {
+      text-align: center; }
+    .main-reservas-form .form-datos {
+      width: 100%;
+      padding: 10px;
+      border: outset 2px gainsboro;
+      border-radius: 10px;
+      background-color: #0f0f0f; }
+      .main-reservas-form .form-datos:focus {
+        border: groove 2px #969696;
+        background-color: #2d2d2d; }
+    .main-reservas-form .form-comensales {
+      text-align: center; }
+      .main-reservas-form .form-comensales .form-selection {
+        padding: 10px;
+        border: outset 2px gainsboro;
+        border-radius: 10px;
+        background-color: #0f0f0f; }
+        .main-reservas-form .form-comensales .form-selection option {
+          color: gainsboro; }
+        .main-reservas-form .form-comensales .form-selection:focus {
+          border: groove 2px #969696;
+          background-color: #2d2d2d; }
+    .main-reservas-form .form-check {
+      margin-left: 10%; }
+    .main-reservas-form .form-comentarios {
+      text-align: center;
+      width: 100%;
+      height: 150px;
+      border: outset 2px gainsboro;
+      border-radius: 10px;
+      background-color: #0f0f0f;
+      font-size: 14px; }
+      .main-reservas-form .form-comentarios:focus {
+        border: groove 2px #969696;
+        background-color: #2d2d2d; }
 
 /* Responsive */
 /* Tablet */
@@ -486,8 +502,9 @@ footer {
     .main-eventos div {
       width: 96%;
       margin: 10px; }
-      .main-eventos div p {
-        text-align: center; } }
+    .main-eventos p {
+      text-align: center;
+      border: none; } }
 
 /* Mobile */
 @media screen and (max-width: 575px) {
