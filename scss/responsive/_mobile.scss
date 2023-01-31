@@ -130,4 +130,28 @@
 		}
 	}
 
+	/* RESERVASS */
+
+	.main-reservas {
+		margin-bottom: 5vh;
+
+		&-form {
+			padding: 10px;
+
+			.form-turno {
+
+				.form-check {
+					margin-left: 1%;
+				}
+
+			}
+
+			.form-lugar {
+
+				.form-check {
+					margin-left: 1%;
+				}
+			}
+		}
+	}
 }
