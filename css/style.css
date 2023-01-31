@@ -335,23 +335,7 @@ footer {
       .main-menu-item .accordion-header .accordion-button:focus {
         box-shadow: 0 0 2px 2px rgba(200, 0, 0, 0.6); }
     .main-menu-item .accordion-collapse {
-      background-color: green; }
-
-.image-text {
-  background-color: rgba(128, 0, 0, 0.5);
-  border-radius: 50px;
-  padding: 0 15px;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 50; }
-  .image-text h3 {
-    background-color: transparent;
-    color: #bebebe;
-    text-shadow: 2px 2px 5px #0f0f0f;
-    font-size: 35px;
-    letter-spacing: 2px; }
+      background-color: maroon; }
 
 /* Eventos */
 .main-eventos {
