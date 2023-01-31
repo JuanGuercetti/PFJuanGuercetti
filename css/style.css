@@ -317,10 +317,25 @@ footer {
   .main-menu-item {
     width: 45%;
     margin: 2%;
-    position: relative; }
+    position: relative;
+    background-color: #0f0f0f; }
     .main-menu-item img {
       width: 100%;
-      border: outset 3px #8c8c8c; }
+      border-radius: 10px; }
+    .main-menu-item .accordion-header .accordion-button {
+      background-color: rgba(128, 0, 0, 0.5);
+      color: #bebebe;
+      text-shadow: 2px 2px 5px #0f0f0f;
+      font-size: 35px;
+      letter-spacing: 2px;
+      text-align: center;
+      position: absolute;
+      top: 10%;
+      width: 100%; }
+      .main-menu-item .accordion-header .accordion-button:focus {
+        box-shadow: 0 0 2px 2px rgba(200, 0, 0, 0.6); }
+    .main-menu-item .accordion-collapse {
+      background-color: green; }
 
 .image-text {
   background-color: rgba(128, 0, 0, 0.5);
