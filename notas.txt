@@ -1,8 +1,8 @@
 modificar eventos porque es horrible
 
-terminar responsive en menu, eventos y reservas
+terminar menú
 
-en menú se puede utilizar collapse de bootstrap
+extension lighthouse
 
 
 320 minimo responsive
