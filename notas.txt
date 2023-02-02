@@ -2,59 +2,54 @@ modificar eventos porque es horrible
 
 extension lighthouse
 
+border blancos abajo en elementos del menu
+
 
 tamaño fuentes
 	index
 		título		1
-			pXL	4
+			pL	4
 		Subtitulo	2
 			subsub	3
 		Sub		2
-			pL	5
+			pM	5
 		boton		3
 
 	quienes
 		titulo		1
 		subtitulo	2
-			pL	5
+			pM	5
 		subsubtitulo	3
-			pM	6
+			pS	6
 
 	menu
 		subtitulo	2
-			pL	5
+			pM	5
 		subsubtitulo	3
-			pM	6
+			pS	6
 
 	Eventos
 		titulo		1
-			pL	5
+			pM	5
 
 	Reservas
 		Subtitulo	2
-			pM	6
+			pS	6
 		subsub		3
-			pM	6
+			pS	6
 		Form
-		    PL		5
-		    checkbox pM 6
-		    boton PL	5
+		    PM		5
+		    checkbox pS 6
+		    boton PM	5
 	
 titulo	1
 sub 	2
 subsub	3
-pXL	4
-pL	5
-pM	6
+pL	4
+pM	5
+pS	6
 
 
 320 minimo responsive
 1920 máximo
 
-6 huevos
-separar claras de yemas
-claras punto nieve
-yemas punto letra
-	(tra 5 e 8 minuti)
-1 ccda de cada uno (yema y clara), alternado con una ccda de harina por cada huevo
-	con movimientos envolventes

@@ -24,7 +24,7 @@
 		background-color: transparent;
 		color: rgb(15, 15, 15);
 		text-shadow: 2px 2px 5px rgb(190, 190, 190);
-		font-size: 70px;
+		font-size: map-get($fontSizes, titulo);
 		font-weight: 500;
 		letter-spacing: 2px;
 	}
@@ -33,7 +33,7 @@
 .main-texto {
 	margin: 8%;
 	p {
-		font-size: 25px;
+		font-size: map-get($fontSizes, parrafoL);
 		text-align: center;
 		margin: 100px 0;
 	}
@@ -59,6 +59,10 @@
 		top: 50%;
  		left: 50%;
  		transform: translate(-50%, -50%);
+
+ 		h3 {
+ 			font-size: map-get($fontSizes, subsubt);
+ 		}
 	}
 
 	&-title {
@@ -66,7 +70,7 @@
 		padding: 10px;
 		color: rgb(15, 15, 15);
 		text-shadow: 2px 2px 5px rgb(190, 190, 190);
-		font-size: 50px;
+		font-size: map-get($fontSizes, subt);
 		font-weight: 400;
 		letter-spacing: 2px;
 	}
@@ -77,12 +81,12 @@
 	text-align: center;
 
 	h3 {
-		font-size: 50px;
+		font-size: map-get($fontSizes, subsubt);
 		margin-bottom: 20px;
 	}
 
 	p {
-		font-size: 18px;
+		font-size: map-get($fontSizes, parrafoM);
 	}
 }
 
@@ -104,7 +108,7 @@
 	transform: translate(-50%, -50%); 
 
 	h3 {
-		font-size: 30px;
+		font-size: map-get($fontSizes, subsubt);
 	}
 
 	a {
