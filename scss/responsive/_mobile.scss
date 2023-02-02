@@ -4,9 +4,9 @@
 		font-size: 14px;
 	}
 	.titulo {
-		font-size: 40px;
+		font-size: map-get($fontSizes, subt);
 		letter-spacing: 0;
-		margin: 30px;
+		margin: 30px 0;
 	}
 
 

@@ -2,6 +2,8 @@ modificar eventos porque es horrible
 
 extension lighthouse
 
+responsive en quienes
+
 border blancos abajo en elementos del menu
 
 

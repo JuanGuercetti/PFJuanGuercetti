@@ -28,6 +28,13 @@
 		div {
 			display: inline-block;
 		}
+
+		h3 {
+			font-size: map-get($fontSizes,subt);
+		}
+		p {
+			font-size: map-get($fontSizes,parrafoM);
+		}
 	}
 }
 
@@ -35,14 +42,14 @@
 	width: 30%;
 	padding: 5px;
 
-	h3 {
+	h4 {
 		margin-bottom: 3%;
-		font-size: 21px;
+		font-size: map-get($fontSizes,subsubt);
 		padding-top: 20%;
 	}
 
 	p {
-		font-size: 16px;
+		font-size: map-get($fontSizes,parrafoS);
 		margin: 3%;
 	}
 }

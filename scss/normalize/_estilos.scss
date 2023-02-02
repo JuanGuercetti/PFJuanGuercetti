@@ -14,7 +14,7 @@ a {
 .titulo {
 	text-align: center;
 	text-shadow: 2px 2px 5px rgb(128, 0, 0);
-	font-size: 60px;
+	font-size: map-get($fontSizes, titulo);
 	letter-spacing: 2px;
 	color: rgb(200, 200, 200);
 	margin: 50px;

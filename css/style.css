@@ -20,7 +20,7 @@ a {
 .titulo {
   text-align: center;
   text-shadow: 2px 2px 5px maroon;
-  font-size: 60px;
+  font-size: 3.5rem;
   letter-spacing: 2px;
   color: #c8c8c8;
   margin: 50px; }
@@ -188,7 +188,7 @@ footer {
     background-color: transparent;
     color: #0f0f0f;
     text-shadow: 2px 2px 5px #bebebe;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 500;
     letter-spacing: 2px; }
 
@@ -283,16 +283,20 @@ footer {
       margin: 100px 0; }
     .quienes-text-div div {
       display: inline-block; }
+    .quienes-text-div h3 {
+      font-size: 2.5em; }
+    .quienes-text-div p {
+      font-size: 1em; }
 
 .quienes-innerText {
   width: 30%;
   padding: 5px; }
-  .quienes-innerText h3 {
+  .quienes-innerText h4 {
     margin-bottom: 3%;
-    font-size: 21px;
+    font-size: 1.8em;
     padding-top: 20%; }
   .quienes-innerText p {
-    font-size: 16px;
+    font-size: 0.8em;
     margin: 3%; }
 
 #quienes-innerImg-1 {
@@ -471,7 +475,6 @@ footer {
   * {
     font-size: 16px; }
   .titulo {
-    font-size: 50px;
     margin: 30px; }
   /* HEADER */
   .header {
@@ -574,9 +577,9 @@ footer {
   * {
     font-size: 14px; }
   .titulo {
-    font-size: 40px;
+    font-size: 2.5em;
     letter-spacing: 0;
-    margin: 30px; }
+    margin: 30px 0; }
   /* HEADER */
   .header {
     display: none; }
