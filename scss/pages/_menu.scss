@@ -42,6 +42,15 @@
 
 			.accordion-collapse {
 				background-color: rgb(128, 0, 0);
+
+				.accordion-body {
+
+					p:first-child {
+						text-align: center;
+						border-bottom: solid 1px white;
+						padding: 20px;
+					}
+				}
 			}
 		}
 }

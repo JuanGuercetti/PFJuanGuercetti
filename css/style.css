@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Variables */
 /* Reset */
 * {
   padding: 0;
@@ -336,6 +337,10 @@ footer {
         box-shadow: 0 0 2px 2px rgba(200, 0, 0, 0.6); }
     .main-menu-item .accordion-collapse {
       background-color: maroon; }
+      .main-menu-item .accordion-collapse .accordion-body p:first-child {
+        text-align: center;
+        border-bottom: solid 1px white;
+        padding: 20px; }
 
 /* Eventos */
 .main-eventos {
