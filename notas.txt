@@ -1,10 +1,16 @@
+paleta colores!!
+
 modificar eventos porque es horrible
 
 extension lighthouse
 
-responsive en quienes
+index	responsive
+menu
+reservas
 
-border blancos abajo en elementos del menu
+
+quienes		listo
+
 
 
 tamaño fuentes

@@ -11,16 +11,16 @@
 
 		h3 {
 			margin-top: 10%;
-			font-size: 3em;
+			font-size: map-get($fontSizes, subt);
 		}
 
 		h4 {
 			margin-top: 40%;
-			font-size: 1.5em;
+			font-size: map-get($fontSizes, subsubt);
 		}
 
 		p {
-			font-size: .8em;
+			font-size: map-get($fontSizes, parrafoS);
 			margin: 20px;
 		}
 	}
@@ -51,6 +51,7 @@
 			border-radius: 10px;
 			background-color: rgb(15, 15, 15);
 			margin-bottom: 10px;
+			font-size: map-get($fontSizes, parrafoM);
 
 			&:focus {
 				border: groove 2px rgb(150, 150, 150);
@@ -63,7 +64,7 @@
 			margin-bottom: 10px;
 
 			label {
-				font-size: 20px;
+				font-size: map-get($fontSizes, parrafoM);
 			}
 
 			.form-selection {
@@ -84,7 +85,7 @@
 		}
 
 		.form-turno {
-			font-size: 20px;
+			font-size: map-get($fontSizes, parrafoM);
 			margin-bottom: 10px;
 
 			.form-check {
@@ -99,13 +100,13 @@
 				}
 
 				label {
-					font-size: 14px;
+					font-size: map-get($fontSizes, parrafoS);
 				}
 			}
 		}
 
 		.form-lugar {
-			font-size: 20px;
+			font-size: map-get($fontSizes, parrafoM);
 			margin-bottom: 10px;
 
 				.form-check {
@@ -120,14 +121,14 @@
 					}
 
 					label {
-						font-size: 14px;
+						font-size: map-get($fontSizes, parrafoS);
 					}
 			}
 		}
 
 		.form-aclaraciones {
 			text-align: center;
-			font-size: 20px;
+			font-size: map-get($fontSizes, parrafoM);
 			margin-bottom: 10px;
 			
 			input {
@@ -137,7 +138,7 @@
 				border: outset 2px rgb(220, 220, 220);
 				border-radius: 10px;
 				background: linear-gradient(to bottom right, rgb(30,30,30),rgb(15,15,15)40%);
-				font-size: 14px;
+				font-size: map-get($fontSizes, parrafoM);
 
 				&:focus {
 					border: groove 2px rgb(150, 150, 150);
@@ -150,6 +151,7 @@
 			background: rgb(128, 0, 0);
 			border: outset 2px rgb(220, 220, 220);
 			margin-top: 20px;
+			font-size: map-get($fontSizes, parrafoM);
 
 			&:hover {
 				background: rgb(90, 0, 0);

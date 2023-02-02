@@ -82,6 +82,19 @@
 		height: auto;
 	}
 
+	.quienes-text {
+
+		&-div {
+
+			h3 {
+				font-size: map-get($fontSizes,subsubt);
+			}
+			p {
+				font-size: map-get($fontSizes,parrafoS);
+			}
+		}
+	}
+
 
 		/* MENÚ */
 
@@ -106,7 +119,7 @@
 		}
 	}
 
-	/* RESERVASS */
+	/* RESERVAS */
 
 	.main-reservas {
 		margin-bottom: 5vh;
