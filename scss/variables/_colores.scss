@@ -1,8 +1,14 @@
 $colores: (
-	fondo: 0,
-	rojo: 0,
-	rojoHover: 0,
-	blanco: 0,
-	gris: 0,
-	grisHover: 0
+	fondo: rgb(15, 15, 15),
+	negro: rgb(40, 40, 40),
+	negroTras: rgba(40, 40, 40,.7),
+	rojo: rgb(128, 0, 0),
+	rojoTras: rgba(128, 0, 0, .8),
+	rojoHover: rgb(100, 0, 0),
+	rojoFuerte: rgb(170, 0, 0),
+	blanco1: rgb(220, 220, 220),
+	blanco2: rgb(190, 190, 190),
+	blancoTras: rgba(190, 190, 190, .5),
+	gris: rgb(150, 150, 150),
+	grisHover: rgb(120, 120, 120)
 );

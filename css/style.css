@@ -147,8 +147,10 @@ footer {
     margin: .5%;
     border: outset 2px #bebebe;
     height: 30vh; }
+    .footer__div:first-child {
+      flex-grow: 1.5; }
     .footer__div h4 {
-      font-size: 20px;
+      font-size: 1em;
       margin: 5px;
       text-decoration: underline; }
 
@@ -507,8 +509,6 @@ footer {
   .footer {
     display: block;
     margin-top: 50px; }
-    .footer__div h4 {
-      font-size: 16px; }
   /* INDEX */
   .main-image-title {
     font-weight: 400;
@@ -620,7 +620,7 @@ footer {
       border: none; }
   /* FOOTER */
   .footer__div h4 {
-    font-size: 12px; }
+    font-size: 1.5em; }
   /* INDEX */
   .main-image2-title {
     padding: 5px; }

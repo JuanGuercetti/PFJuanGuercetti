@@ -1,8 +1,9 @@
 $bordes: (
-	gris: outset 3px rgb(0,0,0),
-	grisHover: outset 3px rgb(0,0,0),
+	gris: outset 3px rgb(190, 190, 190),
+	grisHover: outset 3px rgb(140, 140, 140),
 	blanco: outset 3px rgb(0,0,0),
-	blancoHover: outset 3px rgb(0,0,0)
+	blancoHover: outset 3px rgb(0,0,0),
+	blancoSimple: solid 1px white
 );
 
 $borderRadius: (
@@ -10,4 +11,4 @@ $borderRadius: (
 	redondo: 100%,
 	body: 10px,
 	ninguno: 0
-	);
+);

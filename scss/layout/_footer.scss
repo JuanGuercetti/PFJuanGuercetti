@@ -12,8 +12,12 @@ footer {
 		border: outset 2px rgb(190, 190, 190);
 		height: 30vh;
 
+		&:first-child {
+			flex-grow: 1.5;
+		}
+
 		h4 {
-			font-size: 20px;
+			font-size: map-get($fontSizes,parrafoM);
 			margin: 5px;
 			text-decoration: underline;
 		}

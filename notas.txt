@@ -1,61 +1,14 @@
 paleta colores!!
 
-usar rem O em cambiando el font size general
-
 modificar eventos porque es horrible
 
-quitar 1 sección del footer
-
 extension lighthouse
-
-
-tamaño fuentes
-	index
-		título		1
-			pL	4
-		Subtitulo	2
-			subsub	3
-		Sub		2
-			pM	5
-		boton		3
-
-	quienes
-		titulo		1
-		subtitulo	2
-			pM	5
-		subsubtitulo	3
-			pS	6
-
-	menu
-		subtitulo	2
-			pM	5
-		subsubtitulo	3
-			pS	6
-
-	Eventos
-		titulo		1
-			pM	5
-
-	Reservas
-		Subtitulo	2
-			pS	6
-		subsub		3
-			pS	6
-		Form
-		    PM		5
-		    checkbox pS 6
-		    boton PM	5
-	
-titulo	1
-sub 	2
-subsub	3
-pL	4
-pM	5
-pS	6
 
 
 320 minimo responsive
 1920 máximo
 
+
+https://coolors.co/palette/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff
 
 
