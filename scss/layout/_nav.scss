@@ -1,5 +1,5 @@
 .navbar {
-	background: rgba(128, 0, 0, .8);
+	background: map-get($colores,rojoTras);
 	border: outset 3px rgb(150, 150, 150);
 	border-radius: 5px;
 	margin: 0 auto;
@@ -43,12 +43,12 @@
 	display: inline;
 	letter-spacing: 2px;
 	border-radius: 5px;
-	color: rgb(230, 230, 230);
+	color: map-get($colores,blanco1);
 	text-decoration: none;
 	padding: 5px;
 }
 .nav-item:hover{
-	background-color: rgba(40, 40, 40,.7);
+	opacity: .7;
 }
 .nav-item:last-child {
 	position: absolute;
@@ -58,11 +58,11 @@
 }
 
 .nav-link {
-	color: rgb(230, 230, 230);
+	color: map-get($colores,blanco1);
 }
 
 .dropdown-menu {
-	background: rgba(128, 0, 0, .8);
+	background: map-get($colores,rojoTras);
 	border: outset 3px rgb(150, 150, 150);
 	border-radius: 5px;
 
@@ -72,7 +72,7 @@
 }
 
 .dropdown-item {
-	color: rgb(230, 230, 230);
+	color: map-get($colores,blanco1);
 	
 	&:hover {
 		background-color: rgba(40, 40, 40,.7);

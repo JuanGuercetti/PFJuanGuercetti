@@ -9,8 +9,8 @@
 	position: relative;
 
 	&-text {
-		background-color: rgba(190, 190, 190, .5);
-		color: rgb(15, 15, 15);
+		background-color: map-get($colores,blancoTras);
+		color: map-get($colores,fondo);
 		border-radius: 50px;
 		padding: 0 15px;
 		@include centrarTexto;
@@ -18,8 +18,8 @@
 
 	&-title {
 		background-color: transparent;
-		color: rgb(15, 15, 15);
-		text-shadow: 2px 2px 5px rgb(190, 190, 190);
+		color: map-get($colores,fondo);
+		text-shadow: 2px 2px 5px map-get($colores,rojo2);
 		font-size: map-get($fontSizes, titulo);
 		font-weight: 500;
 		letter-spacing: 2px;
@@ -46,8 +46,8 @@
 	position: relative;
 
 	&-text {
-		background-color: rgba(190, 190, 190, .5);
-		color: rgb(15, 15, 15);
+		background-color: map-get($colores,blancoTras);
+		color: map-get($colores,fondo);
 		border-radius: 50px;
 		padding: 0 15px;
 		@include centrarTexto;
@@ -61,7 +61,7 @@
 		background-color: transparent;
 		padding: 10px;
 		color: rgb(15, 15, 15);
-		text-shadow: 2px 2px 5px rgb(190, 190, 190);
+		text-shadow: 2px 2px 5px map-get($colores,blanco1);
 		font-size: map-get($fontSizes, subt);
 		font-weight: 400;
 		letter-spacing: 2px;
@@ -91,7 +91,7 @@
 	position: relative;
 	margin: 50px 0 100px 0;
 	padding: 20px;
-	background-color: rgb(128, 0, 0);
+	background-color: map-get($colores,rojo2);
 	border: outset 3px rgb(190, 190, 190);
 	border-radius: 3px;
 	letter-spacing: 3px;
@@ -106,8 +106,8 @@
 	}
 
 	&:hover {
-		background-color: rgb(51, 00, 00);
-		color: rgb(190, 190, 190);
+		background-color: map-get($colores,rojoHover);
+		color: map-get($colores,blanco2);
 		border: outset 3px rgb(140, 140, 140);
 	}
 }
