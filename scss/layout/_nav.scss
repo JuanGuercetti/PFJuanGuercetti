@@ -65,6 +65,7 @@
 	background: rgba(128, 0, 0, .8);
 	border: outset 3px rgb(150, 150, 150);
 	border-radius: 5px;
+
 	li {
 		margin: 10px;
 	}
@@ -72,6 +73,7 @@
 
 .dropdown-item {
 	color: rgb(230, 230, 230);
+	
 	&:hover {
 		background-color: rgba(40, 40, 40,.7);
 	}
