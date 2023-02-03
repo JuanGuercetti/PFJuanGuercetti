@@ -1,0 +1,18 @@
+@mixin tamanio($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+@mixin centrar{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin centrarTexto{
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

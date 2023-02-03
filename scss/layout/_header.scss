@@ -17,8 +17,7 @@
 			display: inline;
 
 			img {
-				width: 26px;
-				height: 20px;
+				@include tamanio(26px,20px)
 				margin: 0 3px;
 				&:hover {
 					opacity: .5;

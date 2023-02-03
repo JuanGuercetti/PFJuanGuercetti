@@ -244,14 +244,14 @@ footer {
 .buttonReservas {
   display: inline-block;
   position: relative;
-  top: 50%;
-  left: 50%;
   margin: 50px 0 100px 0;
   padding: 20px;
   background-color: maroon;
   border: outset 3px #bebebe;
   border-radius: 3px;
   letter-spacing: 3px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%); }
   .buttonReservas h3 {
     font-size: 1.8em; }
@@ -470,10 +470,15 @@ footer {
       background: maroon;
       border: outset 2px gainsboro;
       margin-top: 20px;
-      font-size: 1em; }
+      font-size: 1em;
+      padding: 10px;
+      border-radius: 10px; }
       .main-reservas-form button:hover {
         background: #5a0000;
         border: groove 2px #969696; }
+      .main-reservas-form button:active {
+        background: #3c0000;
+        border: groove 2px #787878; }
 
 /* Responsive */
 /* Tablet */
@@ -584,7 +589,7 @@ footer {
 /* Mobile */
 @media screen and (max-width: 575px) {
   * {
-    font-size: 14px; }
+    font-size: 12px; }
   .titulo {
     font-size: 2.5em;
     letter-spacing: 0;
@@ -640,8 +645,6 @@ footer {
   .main-eventos div {
     width: 100%;
     margin: 10px 0; }
-    .main-eventos div p {
-      font-size: 14px; }
   /* RESERVAS */
   .main-reservas {
     margin-bottom: 5vh; }

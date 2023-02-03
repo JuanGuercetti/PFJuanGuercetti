@@ -2,8 +2,7 @@
 	width: 100%;
 
 	&-inner {
-		width: 100%;
-		height: 80vh;
+		@include tamanio(100%,80vh);
 	}
 
 	&-control-prev-icon, &-control-next-icon {

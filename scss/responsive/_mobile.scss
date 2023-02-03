@@ -1,7 +1,7 @@
 @media screen and (max-width: 575px) {
 
 	* {
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.titulo {
 		font-size: map-get($fontSizes, subt);
@@ -113,11 +113,8 @@
 	.main-eventos div {
 		width: 100%;
 		margin: 10px 0;
-
-		p {
-			font-size: 14px;
-		}
 	}
+
 
 	/* RESERVAS */
 

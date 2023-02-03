@@ -1,16 +1,12 @@
 paleta colores!!
 
+usar rem O em cambiando el font size general
+
 modificar eventos porque es horrible
 
+quitar 1 sección del footer
+
 extension lighthouse
-
-index	responsive
-menu
-reservas
-
-
-quienes		listo
-
 
 
 tamaño fuentes
@@ -60,4 +56,6 @@ pS	6
 
 320 minimo responsive
 1920 máximo
+
+
 
