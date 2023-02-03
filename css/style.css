@@ -333,7 +333,7 @@ footer {
       width: 100%;
       border-radius: 10px; }
     .main-menu-item .accordion-header .accordion-button {
-      background-color: rgba(128, 0, 0, 0.5);
+      background-color: rgba(128, 0, 0, 0.8);
       font-size: 2.5em;
       color: #bebebe;
       text-shadow: 2px 2px 5px #0f0f0f;
@@ -343,7 +343,7 @@ footer {
       top: 10%;
       width: 100%; }
       .main-menu-item .accordion-header .accordion-button:focus {
-        box-shadow: 0 0 2px 2px rgba(200, 0, 0, 0.6); }
+        box-shadow: 0 0 5px 5px #bebebe; }
     .main-menu-item .accordion-collapse {
       background-color: maroon; }
       .main-menu-item .accordion-collapse .accordion-body p:first-child {
@@ -393,7 +393,7 @@ footer {
     padding: 40px;
     width: 45%;
     margin-top: 5%;
-    background-image: linear-gradient(to bottom right, #1e1e1e, #0f0f0f 40%);
+    background-image: linear-gradient(to bottom right, #282828, #0f0f0f 40%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -413,7 +413,7 @@ footer {
       font-size: 1em; }
       .main-reservas-form .form-datos:focus {
         border: groove 2px #969696;
-        background-color: #2d2d2d; }
+        background-color: #282828; }
     .main-reservas-form .form-comensales {
       text-align: center;
       margin-bottom: 10px; }
@@ -428,7 +428,7 @@ footer {
           color: gainsboro; }
         .main-reservas-form .form-comensales .form-selection:focus {
           border: groove 2px #969696;
-          background-color: #2d2d2d; }
+          background-color: #282828; }
     .main-reservas-form .form-turno {
       font-size: 1em;
       margin-bottom: 10px; }
@@ -463,7 +463,7 @@ footer {
         height: 150px;
         border: outset 2px gainsboro;
         border-radius: 10px;
-        background: linear-gradient(to bottom right, #1e1e1e, #0f0f0f 40%);
+        background: linear-gradient(to bottom right, #282828, #0f0f0f 40%);
         font-size: 1em; }
         .main-reservas-form .form-aclaraciones input:focus {
           border: groove 2px #969696;

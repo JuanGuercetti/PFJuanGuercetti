@@ -6,7 +6,7 @@
 	}
 
 	&-control-prev-icon, &-control-next-icon {
-		background-color: rgba(128, 0, 0, .8);
+		background-color: map-get($colores,rojoTras);
 		border-radius: 100%;
 	}
 }

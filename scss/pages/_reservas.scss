@@ -29,11 +29,11 @@
 		padding: 40px;
 		width: 45%;
 		margin-top: 5%;
-		background-image: linear-gradient(to bottom right, rgb(30,30,30),rgb(15,15,15)40%);
+		background-image: linear-gradient(to bottom right, map-get($colores,negro),map-get($colores,fondo)40%);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		color: rgb(220, 220, 220);
+		color: map-get($colores,blanco1);
 		font-weight: 300;
 
 		div {
@@ -47,15 +47,15 @@
 		.form-datos {
 			width: 100%;
 			padding: 10px;
-			border: outset 2px rgb(220, 220, 220);
+			border: outset 2px map-get($colores,blanco1);
 			border-radius: 10px;
-			background-color: rgb(15, 15, 15);
+			background-color: map-get($colores,fondo);
 			margin-bottom: 10px;
 			font-size: map-get($fontSizes, parrafoM);
 
 			&:focus {
 				border: groove 2px rgb(150, 150, 150);
-				background-color: rgb(45, 45, 45);
+				background-color: map-get($colores,negro);
 			}
 		}
 
@@ -71,15 +71,15 @@
 				padding: 10px;
 				border: outset 2px rgb(220, 220, 220);
 				border-radius: 10px;
-				background-color: rgb(15, 15, 15);
+				background-color: map-get($colores,fondo);
 
 				option {
-					color: rgb(220, 220, 220);
+					color: map-get($colores,blanco1);
 				}
 
 				&:focus{
 					border: groove 2px rgb(150, 150, 150);
-					background-color: rgb(45, 45, 45);
+					background-color: map-get($colores,negro);
 				}
 			}
 		}
@@ -92,8 +92,8 @@
 				margin-left: 10%;
 
 				&-input:checked {
-					background-color: rgb(170, 0, 0);
-					border-color: rgb(170, 0, 0);
+					background-color: map-get($colores,rojo1);
+					border-color: map-get($colores,rojo1);
 				}
 				&-input:focus {
 					box-shadow: 0 0 2px 2px rgba(200, 0, 0, .6);
@@ -113,8 +113,8 @@
 					margin-left: 10%;
 
 					&-input:checked {
-						background-color: rgb(170, 0, 0);
-						border-color: rgb(170, 0, 0);
+						background-color: map-get($colores,rojo1);
+						border-color: map-get($colores,rojo1);
 					}
 					&-input:focus {
 						box-shadow: 0 0 2px 2px rgba(200, 0, 0, .6);
@@ -136,7 +136,7 @@
 				@include tamanio(100%,150px);
 				border: outset 2px rgb(220, 220, 220);
 				border-radius: 10px;
-				background: linear-gradient(to bottom right, rgb(30,30,30),rgb(15,15,15)40%);
+				background: linear-gradient(to bottom right, map-get($colores,negro),map-get($colores,fondo)40%);
 				font-size: map-get($fontSizes, parrafoM);
 
 				&:focus {
@@ -147,7 +147,7 @@
 		}
 
 		button {
-			background: rgb(128, 0, 0);
+			background: map-get($colores,rojo2);
 			border: outset 2px rgb(220, 220, 220);
 			margin-top: 20px;
 			font-size: map-get($fontSizes, parrafoM);
@@ -155,7 +155,7 @@
 			border-radius: 10px;
 
 			&:hover {
-				background: rgb(90, 0, 0);
+				background: map-get($colores,rojoHover);
 				border: groove 2px rgb(150, 150, 150);
 			}
 
