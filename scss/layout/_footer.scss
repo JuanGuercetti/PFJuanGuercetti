@@ -9,7 +9,7 @@ footer {
 	&__div {
 		flex-grow: 1;
 		margin: .5%;
-		border: outset 2px rgb(190, 190, 190);
+		border: map-get($bordes,blanco1);
 		height: 30vh;
 
 		&:first-child {
@@ -21,19 +21,5 @@ footer {
 			margin: 5px;
 			text-decoration: underline;
 		}
-	}
-}
-
-.btn-up {
-	display: inline-block;
-	text-decoration: none;
-	border: outset 2px rgb(190, 190, 190);
-	padding: 5px;
-	margin: 10px;
-	
-	&:hover {
-		background-color: rgb(40, 40, 40);
-		color: rgb(190, 190, 190);
-		border: outset 2px rgb(140, 140, 140);
 	}
 }

@@ -4,7 +4,7 @@
 
 .button {
 	background-color: map-get($colores,rojo2);
-	border: map-get($bordes,blanco);
+	border: map-get($bordes,blanco1);
 	border-radius: map-get($borderRadius,body);
 
 	a {
@@ -14,12 +14,12 @@
 	&:hover {
 		background-color: map-get($colores,rojoHover);
 		color: map-get($colores,blanco2);
-		border: map-get($bordes,blancoHover);
+		border: map-get($bordes,blanco2);
 	}
 
 	&:active {
-		background: map-get($colores,rojoHover);
-		border: map-get($bordes,gris);
+		background: map-get($colores,rojoActive);
+		border: map-get($bordes,gris1);
 	}
 
 	&-index {
@@ -35,5 +35,19 @@
 		margin-top: 20px;
 		font-size: map-get($fontSizes, parrafoM);
 		padding: 10px;
+	}
+}
+
+.button-up {
+	display: inline-block;
+	text-decoration: none;
+	border: map-get($bordes,blanco1);
+	padding: 5px;
+	margin: 10px;
+	
+	&:hover {
+		background-color: map-get($colores,negro);
+		color: map-get($colores,blanco2);
+		border: map-get($bordes,gris1);
 	}
 }

@@ -1,10 +1,10 @@
 paleta colores!!
 
-map bordes
-
 rellenar footer
 
 modificar eventos porque es horrible
+
+buscar imagen fondo
 
 extension lighthouse
 

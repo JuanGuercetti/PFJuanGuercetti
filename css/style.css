@@ -79,7 +79,7 @@ a {
 
 .navbar {
   background: rgba(128, 0, 0, 0.8);
-  border: outset 3px #969696;
+  border: outset 3px #bebebe;
   border-radius: 5px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -112,29 +112,27 @@ a {
   text-decoration: none;
   padding: 5px; }
 
-.nav-item:hover {
-  opacity: .7; }
-
 .nav-item:last-child {
   position: absolute;
   right: 10px;
-  border-left: 1px solid #969696;
+  border-left: solid 1px #bebebe;
   border-radius: 0; }
 
 .nav-link {
   color: gainsboro; }
+  .nav-link:hover {
+    background: rgba(40, 40, 40, 0.7); }
 
 .dropdown-menu {
   background: rgba(128, 0, 0, 0.8);
-  border: outset 3px #969696;
+  border: outset 3px #bebebe;
   border-radius: 5px; }
   .dropdown-menu li {
     margin: 10px; }
-
-.dropdown-item {
-  color: gainsboro; }
-  .dropdown-item:hover {
-    background-color: rgba(40, 40, 40, 0.7); }
+    .dropdown-menu li .dropdown-item {
+      color: gainsboro; }
+      .dropdown-menu li .dropdown-item:hover {
+        background-color: rgba(40, 40, 40, 0.7); }
 
 footer {
   grid-area: footer; }
@@ -145,7 +143,7 @@ footer {
   .footer__div {
     flex-grow: 1;
     margin: .5%;
-    border: outset 2px #bebebe;
+    border: outset 3px gainsboro;
     height: 30vh; }
     .footer__div:first-child {
       flex-grow: 1.5; }
@@ -153,17 +151,6 @@ footer {
       font-size: 1em;
       margin: 5px;
       text-decoration: underline; }
-
-.btn-up {
-  display: inline-block;
-  text-decoration: none;
-  border: outset 2px #bebebe;
-  padding: 5px;
-  margin: 10px; }
-  .btn-up:hover {
-    background-color: #282828;
-    color: #bebebe;
-    border: outset 2px #8c8c8c; }
 
 .buttonContainer {
   width: 100%; }
@@ -179,7 +166,7 @@ footer {
     color: #bebebe;
     border: outset 3px #bebebe; }
   .button:active {
-    background: #5a0000;
+    background: #460000;
     border: outset 3px #969696; }
   .button-index {
     display: inline-block;
@@ -194,6 +181,17 @@ footer {
     margin-top: 20px;
     font-size: 1em;
     padding: 10px; }
+
+.button-up {
+  display: inline-block;
+  text-decoration: none;
+  border: outset 3px gainsboro;
+  padding: 5px;
+  margin: 10px; }
+  .button-up:hover {
+    background-color: #282828;
+    color: #bebebe;
+    border: outset 3px #969696; }
 
 /* Páginas */
 /* Index */

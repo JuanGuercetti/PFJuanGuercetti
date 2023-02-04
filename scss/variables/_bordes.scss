@@ -1,15 +1,14 @@
 $bordes: (
-	gris: outset 3px map-get($colores,gris),
-	grisHover: outset 3px map-get($colores,grisHover),
-	grisActive: outset 3px map-get($colores,grisActive),
-	blanco: outset 3px map-get($colores,blanco1),
-	blancoHover: outset 3px map-get($colores,blanco2),
-	blancoSimple: solid 1px map-get($colores,blanco1)
+	gris1: outset 3px map-get($colores,gris),
+	gris2: outset 3px map-get($colores,grisHover),
+	gris3: outset 3px map-get($colores,grisActive),
+	blanco1: outset 3px map-get($colores,blanco1),
+	blanco2: outset 3px map-get($colores,blanco2),
+	blancoSimple: solid 1px map-get($colores,blanco2)
 );
 
 $borderRadius: (
 	nav: 5px,
 	redondo: 100%,
-	body: 10px,
-	ninguno: 0
+	body: 10px
 );
