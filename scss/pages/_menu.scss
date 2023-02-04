@@ -19,17 +19,16 @@
 
 		img {
 			width: 100%;
-			border-radius: 10px;
+			border-radius: map-get($borderRadius,body);
 		}
 
 		.accordion-header {
-
 
 			.accordion-button {
 				background-color: map-get($colores,rojoTras);
 				font-size: map-get($fontSizes, subt);
 				color: map-get($colores,blanco2);
-				text-shadow: 2px 2px 5px rgb(15, 15, 15);
+				text-shadow: 2px 2px 5px map-get($colores,fondo);
 				letter-spacing: 2px;
 				text-align: center;
 				position: absolute;
@@ -49,7 +48,7 @@
 
 				p:first-child {
 					text-align: center;
-					border-bottom: solid 1px white;
+					border-bottom: map-get($bordes,blancoSimple);
 					padding: 20px;
 				}
 

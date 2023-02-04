@@ -1,15 +1,3 @@
-* {
-	font-family: 'Poppins', "Times New Roman", Times, serif;
-	font-weight: 300;
-	color: map-get($colores,blanco1);
-	font-size: 18px;
-}
-
-/* Agregué este bloque porque bootstrap me cambiá el color */
-a {	
-	color: map-get($colores,blanco1);
-}
-
 /* ----- Formato predeterminado para los títulos ----- */
 .titulo {
 	text-align: center;

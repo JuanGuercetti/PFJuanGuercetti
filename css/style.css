@@ -4,9 +4,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
-
-* {
+  box-sizing: border-box;
   font-family: 'Poppins', "Times New Roman", Times, serif;
   font-weight: 300;
   color: gainsboro;
@@ -352,7 +350,7 @@ footer {
       background-color: maroon; }
       .main-menu-item .accordion-collapse .accordion-body p:first-child {
         text-align: center;
-        border-bottom: solid 1px white;
+        border-bottom: solid 1px #bebebe;
         padding: 20px; }
       .main-menu-item .accordion-collapse .accordion-body h3 {
         font-size: 1.5em; }
@@ -373,7 +371,7 @@ footer {
     padding: 5px;
     margin: 30px;
     text-align: right;
-    border-right: solid 1px white; }
+    border-right: solid 1px #bebebe; }
 
 /* Reservas */
 .main-reservas {
@@ -410,13 +408,13 @@ footer {
     .main-reservas-form .form-datos {
       width: 100%;
       padding: 10px;
-      border: outset 2px gainsboro;
+      border: outset 3px gainsboro;
       border-radius: 10px;
       background-color: #0f0f0f;
       margin-bottom: 10px;
       font-size: 1em; }
       .main-reservas-form .form-datos:focus {
-        border: groove 2px #969696;
+        border: outset 3px #bebebe;
         background-color: #282828; }
     .main-reservas-form .form-comensales {
       text-align: center;
@@ -425,13 +423,13 @@ footer {
         font-size: 1em; }
       .main-reservas-form .form-comensales .form-selection {
         padding: 10px;
-        border: outset 2px gainsboro;
+        border: outset 3px gainsboro;
         border-radius: 10px;
         background-color: #0f0f0f; }
         .main-reservas-form .form-comensales .form-selection option {
           color: gainsboro; }
         .main-reservas-form .form-comensales .form-selection:focus {
-          border: groove 2px #969696;
+          border: outset 3px #bebebe;
           background-color: #282828; }
     .main-reservas-form .form-turno {
       font-size: 1em;
@@ -442,7 +440,7 @@ footer {
           background-color: #aa0000;
           border-color: #aa0000; }
         .main-reservas-form .form-turno .form-check-input:focus {
-          box-shadow: 0 0 2px 2px rgba(200, 0, 0, 0.6); }
+          box-shadow: 0 0 2px 2px #aa0000; }
         .main-reservas-form .form-turno .form-check label {
           font-size: 0.8em; }
     .main-reservas-form .form-lugar {
@@ -454,7 +452,7 @@ footer {
           background-color: #aa0000;
           border-color: #aa0000; }
         .main-reservas-form .form-lugar .form-check-input:focus {
-          box-shadow: 0 0 2px 2px rgba(200, 0, 0, 0.6); }
+          box-shadow: 0 0 2px 2px #aa0000; }
         .main-reservas-form .form-lugar .form-check label {
           font-size: 0.8em; }
     .main-reservas-form .form-aclaraciones {
@@ -465,12 +463,12 @@ footer {
         text-align: center;
         width: 100%;
         height: 150px;
-        border: outset 2px gainsboro;
+        border: outset 3px gainsboro;
         border-radius: 10px;
         background: linear-gradient(to bottom right, #282828, #0f0f0f 40%);
         font-size: 1em; }
         .main-reservas-form .form-aclaraciones input:focus {
-          border: groove 2px #969696;
+          border: outset 3px #bebebe;
           background: linear-gradient(to bottom right, #2d2d2d, #1e1e1e 40%); }
 
 /* Responsive */
@@ -592,7 +590,7 @@ footer {
     background: maroon; }
     .navbar .navbar-brand-responsive {
       display: inline;
-      font-size: 20px; }
+      font-size: 1.8em; }
     .navbar-nav {
       width: 50%; }
   .dropdown-menu {
@@ -603,7 +601,7 @@ footer {
   .nav-item {
     letter-spacing: 3px;
     padding: 10px;
-    border-bottom: 1px solid;
+    border-bottom: solid 1px #bebebe;
     border-radius: 0; }
     .nav-item:last-child {
       position: static;

@@ -11,7 +11,7 @@
 	&-text {
 		background-color: map-get($colores,blancoTras);
 		color: map-get($colores,fondo);
-		border-radius: 50px;
+		border-radius: map-get($borderRadius,titulo);
 		padding: 0 15px;
 		@include centrarTexto;
 	}
@@ -48,7 +48,7 @@
 	&-text {
 		background-color: map-get($colores,blancoTras);
 		color: map-get($colores,fondo);
-		border-radius: 50px;
+		border-radius: map-get($borderRadius,titulo);
 		padding: 0 15px;
 		@include centrarTexto;
 
@@ -60,7 +60,7 @@
 	&-title {
 		background-color: transparent;
 		padding: 10px;
-		color: rgb(15, 15, 15);
+		color: map-get($colores,fondo);
 		text-shadow: 2px 2px 5px map-get($colores,blanco1);
 		font-size: map-get($fontSizes, subt);
 		font-weight: 400;

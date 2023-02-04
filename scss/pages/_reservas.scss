@@ -47,14 +47,14 @@
 		.form-datos {
 			width: 100%;
 			padding: 10px;
-			border: outset 2px map-get($colores,blanco1);
+			border: map-get($bordes,blanco1);
 			border-radius: 10px;
 			background-color: map-get($colores,fondo);
 			margin-bottom: 10px;
 			font-size: map-get($fontSizes, parrafoM);
 
 			&:focus {
-				border: groove 2px rgb(150, 150, 150);
+				border: map-get($bordes,blanco2);;
 				background-color: map-get($colores,negro);
 			}
 		}
@@ -69,7 +69,7 @@
 
 			.form-selection {
 				padding: 10px;
-				border: outset 2px rgb(220, 220, 220);
+				border: map-get($bordes,blanco1);
 				border-radius: 10px;
 				background-color: map-get($colores,fondo);
 
@@ -78,7 +78,7 @@
 				}
 
 				&:focus{
-					border: groove 2px rgb(150, 150, 150);
+					border: map-get($bordes,blanco2);
 					background-color: map-get($colores,negro);
 				}
 			}
@@ -96,7 +96,7 @@
 					border-color: map-get($colores,rojo1);
 				}
 				&-input:focus {
-					box-shadow: 0 0 2px 2px rgba(200, 0, 0, .6);
+					box-shadow: 0 0 2px 2px map-get($colores,rojo1);
 				}
 
 				label {
@@ -117,7 +117,7 @@
 						border-color: map-get($colores,rojo1);
 					}
 					&-input:focus {
-						box-shadow: 0 0 2px 2px rgba(200, 0, 0, .6);
+						box-shadow: 0 0 2px 2px map-get($colores,rojo1);
 					}
 
 					label {
@@ -134,13 +134,13 @@
 			input {
 				text-align: center;
 				@include tamanio(100%,150px);
-				border: outset 2px rgb(220, 220, 220);
+				border: map-get($bordes,blanco1);
 				border-radius: 10px;
 				background: linear-gradient(to bottom right, map-get($colores,negro),map-get($colores,fondo)40%);
 				font-size: map-get($fontSizes, parrafoM);
 
 				&:focus {
-					border: groove 2px rgb(150, 150, 150);
+					border: map-get($bordes,blanco2);
 					background: linear-gradient(to bottom right, rgb(45,45,45),rgb(30,30,30)40%);
 				}
 			}
