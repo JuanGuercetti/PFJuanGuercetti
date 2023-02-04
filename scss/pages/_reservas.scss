@@ -145,26 +145,6 @@
 				}
 			}
 		}
-
-		button {
-			background: map-get($colores,rojo2);
-			border: outset 2px rgb(220, 220, 220);
-			margin-top: 20px;
-			font-size: map-get($fontSizes, parrafoM);
-			padding: 10px;
-			border-radius: 10px;
-
-			&:hover {
-				background: map-get($colores,rojoHover);
-				border: groove 2px rgb(150, 150, 150);
-			}
-
-			&:active {
-				background: rgb(60, 0, 0);
-				border: groove 2px rgb(120, 120, 120);
-			}
-		}
 	}
-
 }
 

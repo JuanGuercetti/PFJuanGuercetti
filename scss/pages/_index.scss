@@ -81,33 +81,3 @@
 		font-size: map-get($fontSizes, parrafoM);
 	}
 }
-
-.main-buttonReservas {
-	width: 100%;
-}
-
-.buttonReservas {
-	display: inline-block;
-	position: relative;
-	margin: 50px 0 100px 0;
-	padding: 20px;
-	background-color: map-get($colores,rojo2);
-	border: outset 3px rgb(190, 190, 190);
-	border-radius: 3px;
-	letter-spacing: 3px;
- 	@include centrar;
-
-	h3 {
-		font-size: map-get($fontSizes, subsubt);
-	}
-
-	a {
-		text-decoration: none;
-	}
-
-	&:hover {
-		background-color: map-get($colores,rojoHover);
-		color: map-get($colores,blanco2);
-		border: outset 3px rgb(140, 140, 140);
-	}
-}

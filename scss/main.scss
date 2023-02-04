@@ -8,12 +8,12 @@
 @import "../scss/normalize/reset";
 @import "../scss/normalize/estilos";
 
-
 /* Componentes del layout */
 @import "../scss/layout/body";
 @import "../scss/layout/header";
 @import "../scss/layout/nav";
 @import "../scss/layout/footer";
+@import "../scss/components/button";
 
 
 /* Páginas */
@@ -33,6 +33,6 @@
 /* Responsive */
 
 /* Tablet */
-@import "../scss/responsive/tablet";
+@import "../scss/view/tablet";
 /* Mobile */
-@import "../scss/responsive/mobile";
+@import "../scss/view/mobile";

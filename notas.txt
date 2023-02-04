@@ -1,5 +1,9 @@
 paleta colores!!
 
+map bordes
+
+rellenar footer
+
 modificar eventos porque es horrible
 
 extension lighthouse

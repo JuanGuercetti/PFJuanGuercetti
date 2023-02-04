@@ -165,6 +165,36 @@ footer {
     color: #bebebe;
     border: outset 2px #8c8c8c; }
 
+.buttonContainer {
+  width: 100%; }
+
+.button {
+  background-color: maroon;
+  border: outset 3px gainsboro;
+  border-radius: 10px; }
+  .button a {
+    text-decoration: none; }
+  .button:hover {
+    background-color: #5a0000;
+    color: #bebebe;
+    border: outset 3px #bebebe; }
+  .button:active {
+    background: #5a0000;
+    border: outset 3px #969696; }
+  .button-index {
+    display: inline-block;
+    position: relative;
+    margin: 50px 0 100px 0;
+    padding: 20px;
+    letter-spacing: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .button-reservas {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px; }
+
 /* Páginas */
 /* Index */
 .main-image {
@@ -239,30 +269,6 @@ footer {
     margin-bottom: 20px; }
   .main-index-div p {
     font-size: 1em; }
-
-.main-buttonReservas {
-  width: 100%; }
-
-.buttonReservas {
-  display: inline-block;
-  position: relative;
-  margin: 50px 0 100px 0;
-  padding: 20px;
-  background-color: maroon;
-  border: outset 3px #bebebe;
-  border-radius: 3px;
-  letter-spacing: 3px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-  .buttonReservas h3 {
-    font-size: 1.8em; }
-  .buttonReservas a {
-    text-decoration: none; }
-  .buttonReservas:hover {
-    background-color: #5a0000;
-    color: #bebebe;
-    border: outset 3px #8c8c8c; }
 
 /* Quienes somos */
 .carousel {
@@ -468,19 +474,6 @@ footer {
         .main-reservas-form .form-aclaraciones input:focus {
           border: groove 2px #969696;
           background: linear-gradient(to bottom right, #2d2d2d, #1e1e1e 40%); }
-    .main-reservas-form button {
-      background: maroon;
-      border: outset 2px gainsboro;
-      margin-top: 20px;
-      font-size: 1em;
-      padding: 10px;
-      border-radius: 10px; }
-      .main-reservas-form button:hover {
-        background: #5a0000;
-        border: groove 2px #969696; }
-      .main-reservas-form button:active {
-        background: #3c0000;
-        border: groove 2px #787878; }
 
 /* Responsive */
 /* Tablet */
@@ -523,9 +516,8 @@ footer {
   .buttonReservas {
     padding: 15px;
     margin: 50px 0 50px 0;
-    letter-spacing: 0px; }
-    .buttonReservas h3 {
-      font-weight: 300; }
+    letter-spacing: 0px;
+    font-weight: 300; }
   /* QUIENES SOMOS */
   .carousel, .carousel-indicators, .carousel-inner {
     height: auto; }
@@ -626,8 +618,6 @@ footer {
     padding: 5px; }
   .buttonReservas {
     margin: 25px 0 25px 0; }
-    .buttonReservas h3 {
-      font-weight: 300; }
   /* QUIENES SOMOS */
   .carousel, .carousel-indicators, .carousel-inner {
     height: auto; }

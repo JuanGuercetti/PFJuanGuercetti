@@ -1,0 +1,39 @@
+.buttonContainer {
+	width: 100%;
+}
+
+.button {
+	background-color: map-get($colores,rojo2);
+	border: map-get($bordes,blanco);
+	border-radius: map-get($borderRadius,body);
+
+	a {
+		text-decoration: none;
+	}
+
+	&:hover {
+		background-color: map-get($colores,rojoHover);
+		color: map-get($colores,blanco2);
+		border: map-get($bordes,blancoHover);
+	}
+
+	&:active {
+		background: map-get($colores,rojoHover);
+		border: map-get($bordes,gris);
+	}
+
+	&-index {
+		display: inline-block;
+		position: relative;
+		margin: 50px 0 100px 0;
+		padding: 20px;
+		letter-spacing: 3px;
+ 		@include centrar;
+	}
+
+	&-reservas {
+		margin-top: 20px;
+		font-size: map-get($fontSizes, parrafoM);
+		padding: 10px;
+	}
+}
