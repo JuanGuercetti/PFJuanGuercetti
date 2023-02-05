@@ -48,13 +48,13 @@
 			width: 100%;
 			padding: 10px;
 			border: map-get($bordes,blanco1);
-			border-radius: 10px;
+			border-radius: map-get($borderRadius, body);
 			background-color: map-get($colores,fondo);
 			margin-bottom: 10px;
 			font-size: map-get($fontSizes, parrafoM);
 
 			&:focus {
-				border: map-get($bordes,blanco2);;
+				border: map-get($bordes,blanco2);
 				background-color: map-get($colores,negro);
 			}
 		}
@@ -70,7 +70,7 @@
 			.form-selection {
 				padding: 10px;
 				border: map-get($bordes,blanco1);
-				border-radius: 10px;
+				border-radius: map-get($borderRadius, body);
 				background-color: map-get($colores,fondo);
 
 				option {
@@ -135,7 +135,7 @@
 				text-align: center;
 				@include tamanio(100%,150px);
 				border: map-get($bordes,blanco1);
-				border-radius: 10px;
+				border-radius: map-get($borderRadius, body);
 				background: linear-gradient(to bottom right, map-get($colores,negro),map-get($colores,fondo)40%);
 				font-size: map-get($fontSizes, parrafoM);
 
