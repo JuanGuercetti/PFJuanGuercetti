@@ -355,7 +355,8 @@ footer {
       .main-menu-item .accordion-collapse .accordion-body h3 {
         font-size: 1.5em; }
       .main-menu-item .accordion-collapse .accordion-body p {
-        font-size: 0.8em; }
+        font-size: 1em;
+        text-align: center; }
 
 /* Eventos */
 .main-eventos {
@@ -371,7 +372,8 @@ footer {
     padding: 5px;
     margin: 30px;
     text-align: right;
-    border-right: solid 1px #bebebe; }
+    border-right: solid 1px #bebebe;
+    font-size: 1.5em; }
 
 /* Reservas */
 .main-reservas {
@@ -389,7 +391,7 @@ footer {
       margin-top: 40%;
       font-size: 1.8em; }
     .main-reservas-div p {
-      font-size: 0.8em;
+      font-size: 1em;
       margin: 20px; }
   .main-reservas-form {
     padding: 40px;
@@ -420,7 +422,7 @@ footer {
       text-align: center;
       margin-bottom: 10px; }
       .main-reservas-form .form-comensales label {
-        font-size: 1em; }
+        font-size: 1.5em; }
       .main-reservas-form .form-comensales .form-selection {
         padding: 10px;
         border: outset 3px gainsboro;
@@ -432,7 +434,7 @@ footer {
           border: outset 3px #bebebe;
           background-color: #282828; }
     .main-reservas-form .form-turno {
-      font-size: 1em;
+      font-size: 1.5em;
       margin-bottom: 10px; }
       .main-reservas-form .form-turno .form-check {
         margin-left: 10%; }
@@ -442,9 +444,9 @@ footer {
         .main-reservas-form .form-turno .form-check-input:focus {
           box-shadow: 0 0 2px 2px #aa0000; }
         .main-reservas-form .form-turno .form-check label {
-          font-size: 0.8em; }
+          font-size: 1em; }
     .main-reservas-form .form-lugar {
-      font-size: 1em;
+      font-size: 1.5em;
       margin-bottom: 10px; }
       .main-reservas-form .form-lugar .form-check {
         margin-left: 10%; }
@@ -454,10 +456,10 @@ footer {
         .main-reservas-form .form-lugar .form-check-input:focus {
           box-shadow: 0 0 2px 2px #aa0000; }
         .main-reservas-form .form-lugar .form-check label {
-          font-size: 0.8em; }
+          font-size: 1em; }
     .main-reservas-form .form-aclaraciones {
       text-align: center;
-      font-size: 1em;
+      font-size: 1.5em;
       margin-bottom: 10px; }
       .main-reservas-form .form-aclaraciones input {
         text-align: center;
@@ -524,7 +526,8 @@ footer {
       margin: 50px 0;
       padding: 5px; }
     .quienes-text-div p {
-      margin: 2%; }
+      margin: 2%;
+      font-size: 1.5em; }
   .quienes-innerText {
     width: 100%;
     padding: 5px;
@@ -620,7 +623,7 @@ footer {
   .quienes-text-div h3 {
     font-size: 1.8em; }
   .quienes-text-div p {
-    font-size: 0.8em; }
+    font-size: 1em; }
   /* MENÚ */
   .main-menu-item {
     width: 100%;

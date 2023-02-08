@@ -57,7 +57,8 @@
 				}
 
 				p {
-					font-size: map-get($fontSizes, parrafoS);
+					font-size: map-get($fontSizes, parrafoM);
+					text-align: center;
 				}
 			}
 		}

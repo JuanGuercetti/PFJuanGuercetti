@@ -17,5 +17,6 @@
 		margin: 30px;
 		text-align: right;
 		border-right: map-get($bordes,blancoSimple);
+		font-size: map-get($fontSizes,parrafoL);
 	}
 }

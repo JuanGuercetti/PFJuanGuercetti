@@ -20,7 +20,7 @@
 		}
 
 		p {
-			font-size: map-get($fontSizes, parrafoS);
+			font-size: map-get($fontSizes, parrafoM);
 			margin: 20px;
 		}
 	}
@@ -64,7 +64,7 @@
 			margin-bottom: 10px;
 
 			label {
-				font-size: map-get($fontSizes, parrafoM);
+				font-size: map-get($fontSizes, parrafoL);
 			}
 
 			.form-selection {
@@ -85,7 +85,7 @@
 		}
 
 		.form-turno {
-			font-size: map-get($fontSizes, parrafoM);
+			font-size: map-get($fontSizes, parrafoL);
 			margin-bottom: 10px;
 
 			.form-check {
@@ -100,13 +100,13 @@
 				}
 
 				label {
-					font-size: map-get($fontSizes, parrafoS);
+					font-size: map-get($fontSizes, parrafoM);
 				}
 			}
 		}
 
 		.form-lugar {
-			font-size: map-get($fontSizes, parrafoM);
+			font-size: map-get($fontSizes, parrafoL);
 			margin-bottom: 10px;
 
 				.form-check {
@@ -121,14 +121,14 @@
 					}
 
 					label {
-						font-size: map-get($fontSizes, parrafoS);
+						font-size: map-get($fontSizes, parrafoM);
 					}
 			}
 		}
 
 		.form-aclaraciones {
 			text-align: center;
-			font-size: map-get($fontSizes, parrafoM);
+			font-size: map-get($fontSizes, parrafoL);
 			margin-bottom: 10px;
 			
 			input {
