@@ -56,8 +56,22 @@
 
 		/* FOOTER */
 
-	.footer__div h4 {
-		font-size: map-get($fontSizes,parrafoL);
+	.footer__div {
+
+		h4 {
+			font-size: map-get($fontSizes,parrafoL);
+		}
+
+		p {
+			font-size: map-get($fontSizes,parrafoM);
+		}
+
+		&:last-child {
+
+			iframe {
+				width: 90%;
+			}
+		}
 	}
 
 

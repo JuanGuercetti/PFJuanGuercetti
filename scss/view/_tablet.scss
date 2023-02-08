@@ -43,6 +43,22 @@
 	.footer {
 		display: block;
 		margin-top: 50px;
+
+		&__div {
+			width: auto;
+			margin: 5px;
+
+			h4 {
+				font-size: map-get($fontSizes,parrafoM);
+			}
+
+			&-text {
+
+				p {
+					font-size: map-get($fontSizes,parrafoS);
+				}
+			}
+		}
 	}
 
 

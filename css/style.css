@@ -158,13 +158,27 @@ footer {
     flex-grow: 1;
     margin: .5%;
     border: outset 3px gainsboro;
-    height: 30vh; }
-    .footer__div:first-child {
-      flex-grow: 1.5; }
+    width: 40%; }
     .footer__div h4 {
       font-size: 1em;
       margin: 5px;
       text-decoration: underline; }
+    .footer__div-text {
+      margin: 5%;
+      text-align: left; }
+      .footer__div-text p {
+        font-size: 0.8em; }
+        .footer__div-text p:last-child {
+          text-align: center; }
+    .footer__div:last-child {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .footer__div:last-child h4 {
+        width: 100%; }
+      .footer__div:last-child iframe {
+        height: 40vh;
+        margin: 5%; }
 
 .buttonContainer {
   width: 100%; }
@@ -515,6 +529,13 @@ footer {
   .footer {
     display: block;
     margin-top: 50px; }
+    .footer__div {
+      width: auto;
+      margin: 5px; }
+      .footer__div h4 {
+        font-size: 1em; }
+      .footer__div-text p {
+        font-size: 0.8em; }
   /* INDEX */
   .main-image-title {
     font-weight: 400;
@@ -627,6 +648,10 @@ footer {
   /* FOOTER */
   .footer__div h4 {
     font-size: 1.5em; }
+  .footer__div p {
+    font-size: 1em; }
+  .footer__div:last-child iframe {
+    width: 90%; }
   /* INDEX */
   .main-image2-title {
     padding: 5px; }

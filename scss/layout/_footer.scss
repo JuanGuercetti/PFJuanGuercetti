@@ -10,16 +10,40 @@ footer {
 		flex-grow: 1;
 		margin: .5%;
 		border: map-get($bordes,sec1);
-		height: 30vh;
-
-		&:first-child {
-			flex-grow: 1.5;
-		}
+		width: 40%;
 
 		h4 {
 			font-size: map-get($fontSizes,parrafoM);
 			margin: 5px;
 			text-decoration: underline;
+		}
+
+		&-text {
+			margin: 5%;
+			text-align: left;
+
+			p {
+				font-size: map-get($fontSizes,parrafoS);
+
+				&:last-child {
+					text-align: center;
+				}
+			}
+		}
+
+		&:last-child {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+
+			h4 {
+				width: 100%;
+			}
+
+			iframe {
+				height: 40vh;
+				margin: 5%;
+			}
 		}
 	}
 }
