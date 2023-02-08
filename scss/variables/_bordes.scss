@@ -1,10 +1,10 @@
 $bordes: (
-	gris1: outset 3px map-get($colores,gris),
-	gris2: outset 3px map-get($colores,grisHover),
-	gris3: outset 3px map-get($colores,grisActive),
-	blanco1: outset 3px map-get($colores,blanco1),
-	blanco2: outset 3px map-get($colores,blanco2),
-	blancoSimple: solid 1px map-get($colores,blanco2)
+	ter1: outset 3px map-get($colores,ter),
+	ter2: outset 3px map-get($colores,terHover),
+	ter3: outset 3px map-get($colores,terActive),
+	sec1: outset 3px map-get($colores,sec1),
+	sec2: outset 3px map-get($colores,sec2),
+	secSimple: solid 1px map-get($colores,sec2)
 );
 
 $borderRadius: (

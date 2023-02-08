@@ -29,11 +29,11 @@
 		padding: 40px;
 		width: 45%;
 		margin-top: 5%;
-		background-image: linear-gradient(to bottom right, map-get($colores,negro),map-get($colores,fondo)40%);
+		background-image: linear-gradient(to bottom right, map-get($colores,fondo2),map-get($colores,fondo1)40%);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		color: map-get($colores,blanco1);
+		color: map-get($colores,sec1);
 		font-weight: 300;
 
 		div {
@@ -47,15 +47,15 @@
 		.form-datos {
 			width: 100%;
 			padding: 10px;
-			border: map-get($bordes,blanco1);
+			border: map-get($bordes,sec1);
 			border-radius: map-get($borderRadius, body);
-			background-color: map-get($colores,fondo);
+			background-color: map-get($colores,fondo1);
 			margin-bottom: 10px;
 			font-size: map-get($fontSizes, parrafoM);
 
 			&:focus {
-				border: map-get($bordes,blanco2);
-				background-color: map-get($colores,negro);
+				border: map-get($bordes,sec2);
+				background-color: map-get($colores,fondo2);
 			}
 		}
 
@@ -69,17 +69,17 @@
 
 			.form-selection {
 				padding: 10px;
-				border: map-get($bordes,blanco1);
+				border: map-get($bordes,sec1);
 				border-radius: map-get($borderRadius, body);
-				background-color: map-get($colores,fondo);
+				background-color: map-get($colores,fondo1);
 
 				option {
-					color: map-get($colores,blanco1);
+					color: map-get($colores,sec1);
 				}
 
 				&:focus{
-					border: map-get($bordes,blanco2);
-					background-color: map-get($colores,negro);
+					border: map-get($bordes,sec2);
+					background-color: map-get($colores,fondo2);
 				}
 			}
 		}
@@ -92,11 +92,11 @@
 				margin-left: 10%;
 
 				&-input:checked {
-					background-color: map-get($colores,rojo1);
-					border-color: map-get($colores,rojo1);
+					background-color: map-get($colores,ppal1);
+					border-color: map-get($colores,ppal1);
 				}
 				&-input:focus {
-					box-shadow: 0 0 2px 2px map-get($colores,rojo1);
+					box-shadow: 0 0 2px 2px map-get($colores,ppal1);
 				}
 
 				label {
@@ -113,11 +113,11 @@
 					margin-left: 10%;
 
 					&-input:checked {
-						background-color: map-get($colores,rojo1);
-						border-color: map-get($colores,rojo1);
+						background-color: map-get($colores,ppal1);
+						border-color: map-get($colores,ppal1);
 					}
 					&-input:focus {
-						box-shadow: 0 0 2px 2px map-get($colores,rojo1);
+						box-shadow: 0 0 2px 2px map-get($colores,ppal1);
 					}
 
 					label {
@@ -134,14 +134,14 @@
 			input {
 				text-align: center;
 				@include tamanio(100%,150px);
-				border: map-get($bordes,blanco1);
+				border: map-get($bordes,sec1);
 				border-radius: map-get($borderRadius, body);
-				background: linear-gradient(to bottom right, map-get($colores,negro),map-get($colores,fondo)40%);
+				background: linear-gradient(to bottom right, map-get($colores,fondo2),map-get($colores,fondo1)40%);
 				font-size: map-get($fontSizes, parrafoM);
 
 				&:focus {
-					border: map-get($bordes,blanco2);
-					background: linear-gradient(to bottom right, rgb(45,45,45),rgb(30,30,30)40%);
+					border: map-get($bordes,sec2);
+					background: map-get($colores,fondo2);
 				}
 			}
 		}

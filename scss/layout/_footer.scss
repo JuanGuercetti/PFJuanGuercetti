@@ -9,7 +9,7 @@ footer {
 	&__div {
 		flex-grow: 1;
 		margin: .5%;
-		border: map-get($bordes,blanco1);
+		border: map-get($bordes,sec1);
 		height: 30vh;
 
 		&:first-child {

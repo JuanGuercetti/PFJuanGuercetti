@@ -1,9 +1,9 @@
 /* ----- Formato predeterminado para los títulos ----- */
 .titulo {
 	text-align: center;
-	text-shadow: 2px 2px 5px map-get($colores,rojo2);
+	text-shadow: 2px 2px 5px map-get($colores,ppal2);
 	font-size: map-get($fontSizes, titulo);
 	letter-spacing: 2px;
-	color: map-get($colores,blanco2);
+	color: map-get($colores,sec2);
 	margin: 50px;
 }

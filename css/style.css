@@ -1,5 +1,21 @@
 @charset "UTF-8";
 /* Variables */
+/*$colores: (
+	fondo: rgb(15, 15, 15),
+	negro: rgb(40, 40, 40),
+	negroTras: rgba(40, 40, 40, .7),
+	rojo1: rgb(170, 0, 0),
+	rojo2: rgb(128, 0, 0),
+	rojoTras: rgba(128, 0, 0, 0.9),
+	rojoHover: rgb(90, 0, 0),
+	rojoActive: rgb(70, 0, 0),
+	blanco1: rgb(220, 220, 220),
+	blanco2: rgb(190, 190, 190),
+	blancoTras: rgba(190, 190, 190, .5),
+	gris: rgb(150, 150, 150),
+	grisHover: rgb(120, 120, 120),
+	grisActive: rgb(90, 90, 90)
+);*/
 /* Reset */
 * {
   padding: 0;
@@ -187,7 +203,6 @@ footer {
   padding: 5px;
   margin: 10px; }
   .button-up:hover {
-    background-color: #282828;
     color: #bebebe;
     border: outset 3px #969696; }
 
@@ -471,7 +486,7 @@ footer {
         font-size: 1em; }
         .main-reservas-form .form-aclaraciones input:focus {
           border: outset 3px #bebebe;
-          background: linear-gradient(to bottom right, #2d2d2d, #1e1e1e 40%); }
+          background: #282828; }
 
 /* Responsive */
 /* Tablet */

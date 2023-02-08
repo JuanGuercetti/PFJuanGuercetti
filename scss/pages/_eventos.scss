@@ -16,7 +16,7 @@
 		padding: 5px;
 		margin: 30px;
 		text-align: right;
-		border-right: map-get($bordes,blancoSimple);
+		border-right: map-get($bordes,secSimple);
 		font-size: map-get($fontSizes,parrafoL);
 	}
 }

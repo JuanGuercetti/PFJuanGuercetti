@@ -20,7 +20,7 @@
 		/* NAV */
 
 	.navbar {
-		background: map-get($colores,rojo2);
+		background: map-get($colores,ppal2);
 
 		.navbar-brand-responsive {
 			display: inline;
@@ -33,7 +33,7 @@
 	}
 	
 	.dropdown-menu {
-		background: map-get($colores,rojo2);
+		background: map-get($colores,ppal2);
 		border: none;
 
 		li {
@@ -44,7 +44,7 @@
 	.nav-item {
 		letter-spacing: 3px;
 		padding: 10px;
-		border-bottom: map-get($bordes,blancoSimple);
+		border-bottom: map-get($bordes,secSimple);
 		border-radius: 0;
 
 		&:last-child {

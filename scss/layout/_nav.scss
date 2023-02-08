@@ -1,6 +1,6 @@
 .navbar {
-	background: map-get($colores,rojoTras);
-	border: map-get($bordes,blanco2);
+	background: map-get($colores,ppalTras);
+	border: map-get($bordes,sec2);
 	border-radius: map-get($borderRadius,nav);
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -43,7 +43,7 @@
 	display: inline;
 	letter-spacing: 2px;
 	border-radius: map-get($borderRadius,nav);
-	color: map-get($colores,blanco1);
+	color: map-get($colores,sec1);
 	text-decoration: none;
 	padding: 5px;
 }
@@ -51,31 +51,31 @@
 .nav-item:last-child {
 	position: absolute;
 	right: 10px;
-	border-left: map-get($bordes,blancoSimple);
+	border-left: map-get($bordes,secSimple);
 	border-radius: 0;
 }
 
 .nav-link {
-	color: map-get($colores,blanco1);
+	color: map-get($colores,sec1);
 
 	&:hover {
-		background: map-get($colores,negroTras);
+		background: map-get($colores,fondoTras);
 	}
 }
 
 .dropdown-menu {
-	background: map-get($colores,rojoTras);
-	border: map-get($bordes,blanco2);
+	background: map-get($colores,ppalTras);
+	border: map-get($bordes,sec2);
 	border-radius: map-get($borderRadius,nav);
 
 	li {
 		margin: 10px;
 
 		.dropdown-item {
-			color: map-get($colores,blanco1);
+			color: map-get($colores,sec1);
 	
 			&:hover {
-				background-color: map-get($colores,negroTras);
+				background-color: map-get($colores,fondoTras);
 			}
 		}
 	}

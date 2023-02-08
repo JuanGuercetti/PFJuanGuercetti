@@ -14,7 +14,7 @@
 		width: 45%;
 		margin: 2%;
 		position: relative;
-		background-color: map-get($colores,fondo);
+		background-color: map-get($colores,fondo1);
 		border-bottom: none;
 
 		img {
@@ -25,10 +25,10 @@
 		.accordion-header {
 
 			.accordion-button {
-				background-color: map-get($colores,rojoTras);
+				background-color: map-get($colores,ppalTras);
 				font-size: map-get($fontSizes, subt);
-				color: map-get($colores,blanco2);
-				text-shadow: 2px 2px 5px map-get($colores,fondo);
+				color: map-get($colores,sec2);
+				text-shadow: 2px 2px 5px map-get($colores,fondo1);
 				letter-spacing: 2px;
 				text-align: center;
 				position: absolute;
@@ -36,19 +36,19 @@
  				width: 100%;
 
  				&:focus {
- 					box-shadow: 0 0 5px 5px map-get($colores,blanco2);
+ 					box-shadow: 0 0 5px 5px map-get($colores,sec2);
  				}
 			}
 		}
 
 		.accordion-collapse {
-			background-color: map-get($colores,rojo2);
+			background-color: map-get($colores,ppal2);
 
 			.accordion-body {
 
 				p:first-child {
 					text-align: center;
-					border-bottom: map-get($bordes,blancoSimple);
+					border-bottom: map-get($bordes,secSimple);
 					padding: 20px;
 				}
 

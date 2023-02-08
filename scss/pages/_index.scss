@@ -9,8 +9,8 @@
 	position: relative;
 
 	&-text {
-		background-color: map-get($colores,blancoTras);
-		color: map-get($colores,fondo);
+		background-color: map-get($colores,secTras);
+		color: map-get($colores,fondo1);
 		border-radius: map-get($borderRadius,titulo);
 		padding: 0 15px;
 		@include centrarTexto;
@@ -18,8 +18,8 @@
 
 	&-title {
 		background-color: transparent;
-		color: map-get($colores,fondo);
-		text-shadow: 2px 2px 5px map-get($colores,rojo2);
+		color: map-get($colores,fondo1);
+		text-shadow: 2px 2px 5px map-get($colores,ppal2);
 		font-size: map-get($fontSizes, titulo);
 		font-weight: 500;
 		letter-spacing: 2px;
@@ -46,8 +46,8 @@
 	position: relative;
 
 	&-text {
-		background-color: map-get($colores,blancoTras);
-		color: map-get($colores,fondo);
+		background-color: map-get($colores,secTras);
+		color: map-get($colores,fondo1);
 		border-radius: map-get($borderRadius,titulo);
 		padding: 0 15px;
 		@include centrarTexto;
@@ -60,8 +60,8 @@
 	&-title {
 		background-color: transparent;
 		padding: 10px;
-		color: map-get($colores,fondo);
-		text-shadow: 2px 2px 5px map-get($colores,blanco1);
+		color: map-get($colores,fondo1);
+		text-shadow: 2px 2px 5px map-get($colores,sec1);
 		font-size: map-get($fontSizes, subt);
 		font-weight: 400;
 		letter-spacing: 2px;

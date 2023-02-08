@@ -6,7 +6,7 @@
 	}
 
 	&-control-prev-icon, &-control-next-icon {
-		background-color: map-get($colores,rojoTras);
+		background-color: map-get($colores,ppalTras);
 		border-radius: map-get($borderRadius,redondo);
 	}
 }

@@ -1,4 +1,21 @@
 $colores: (
+	fondo1: rgb(15, 15, 15),
+	fondo2: rgb(40, 40, 40),
+	fondoTras: rgba(40, 40, 40, .7),
+	ppal1: rgb(170, 0, 0),
+	ppal2: rgb(128, 0, 0),
+	ppalTras: rgba(128, 0, 0, 0.9),
+	ppalHover: rgb(90, 0, 0),
+	ppalActive: rgb(70, 0, 0),
+	sec1: rgb(220, 220, 220),
+	sec2: rgb(190, 190, 190),
+	secTras: rgba(190, 190, 190, .5),
+	ter: rgb(150, 150, 150),
+	terHover: rgb(120, 120, 120),
+	terActive: rgb(90, 90, 90)
+);
+
+/*$colores: (
 	fondo: rgb(15, 15, 15),
 	negro: rgb(40, 40, 40),
 	negroTras: rgba(40, 40, 40, .7),
@@ -13,4 +30,4 @@ $colores: (
 	gris: rgb(150, 150, 150),
 	grisHover: rgb(120, 120, 120),
 	grisActive: rgb(90, 90, 90)
-);
+);*/
