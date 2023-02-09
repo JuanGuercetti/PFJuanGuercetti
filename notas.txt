@@ -1,12 +1,4 @@
-paleta colores!!
-
-rellenar footer
-
-modificar eventos porque es horrible
-
-buscar imagen fondo
-
-extension lighthouse
+acomodar colores
 
 
 320 minimo responsive
