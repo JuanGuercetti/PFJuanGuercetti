@@ -4,7 +4,7 @@ $bordes: (
 	ter3: outset 3px map-get($colores,terActive),
 	sec1: outset 3px map-get($colores,sec1),
 	sec2: outset 3px map-get($colores,sec2),
-	secSimple: solid 1px map-get($colores,sec2)
+	secSimple: solid 1px map-get($colores,sec2),
 );
 
 $borderRadius: (

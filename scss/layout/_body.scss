@@ -1,5 +1,5 @@
 .body-container {
-	background-color: map-get($colores,fondo1);
+	background-image: linear-gradient(to top left, map-get($colores,fondo1)70%, map-get($colores,ppal1));
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto auto auto auto;

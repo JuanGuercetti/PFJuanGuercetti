@@ -1,4 +1,8 @@
-acomodar colores
+
+subirlo a un hosting
+
+se entrega el sito y el codigo
+gitghubes pages, hosting y git repositorio
 
 
 320 minimo responsive

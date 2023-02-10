@@ -18,8 +18,7 @@
 	}
 
 	&:active {
-		background: map-get($colores,ppalActive);
-		border: map-get($bordes,ter1);
+		opacity: .8;
 	}
 
 	&-index {
@@ -46,8 +45,12 @@
 	margin: 10px;
 	
 	&:hover {
-		background-color: map-get($colores,negro);
-		color: map-get($colores,sec2);
+		background-color: map-get($colores,fondo2);
+	}
+
+	&:active {
+		background-color: map-get($colores,fondo1);
 		border: map-get($bordes,ter1);
+		color: map-get($colores,ter);
 	}
 }
