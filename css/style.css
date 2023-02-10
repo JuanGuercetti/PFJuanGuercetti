@@ -7,12 +7,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', "Times New Roman", Times, serif;
   font-weight: 300;
-  color: white;
+  color: #e6e6e6;
   font-size: 18px; }
 
 /* Agregué este bloque porque bootstrap me cambiá el color */
 a {
-  color: white; }
+  color: #e6e6e6; }
 
 /* ----- Formato predeterminado para los títulos ----- */
 .titulo {
@@ -20,12 +20,12 @@ a {
   text-shadow: 2px 2px 5px #a4161a;
   font-size: 3.5rem;
   letter-spacing: 2px;
-  color: #e1dfe0;
+  color: #cdcdcd;
   margin: 50px; }
 
 /* Componentes del layout */
 .body-container {
-  background-image: linear-gradient(to top left, #0b090a 70%, #e5383b);
+  background-image: linear-gradient(to top left, #0b090a 70%, #9c382d);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
@@ -77,7 +77,7 @@ a {
 
 .navbar {
   background: rgba(186, 24, 27, 0.8);
-  border: outset 3px #e1dfe0;
+  border: outset 3px #cdcdcd;
   border-radius: 5px;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -108,31 +108,31 @@ a {
   display: inline;
   letter-spacing: 2px;
   border-radius: 5px;
-  color: white;
+  color: #e6e6e6;
   text-decoration: none;
   padding: 5px; }
 
 .nav-item:last-child {
   position: absolute;
   right: 10px;
-  border-left: solid 1px #e1dfe0;
+  border-left: solid 1px #cdcdcd;
   border-radius: 0; }
 
 .nav-link {
-  color: white; }
+  color: #e6e6e6; }
   .nav-link:hover {
     background: rgba(22, 26, 29, 0.8); }
 
 .dropdown-menu {
   background: rgba(186, 24, 27, 0.8);
-  border: outset 3px #e1dfe0;
+  border: outset 3px #cdcdcd;
   border-radius: 5px; }
   .dropdown-menu:hover {
     background: #a4161a; }
   .dropdown-menu li {
     margin: 10px; }
     .dropdown-menu li .dropdown-item {
-      color: white; }
+      color: #e6e6e6; }
       .dropdown-menu li .dropdown-item:hover {
         background-color: rgba(22, 26, 29, 0.8); }
 
@@ -145,7 +145,7 @@ footer {
   .footer__div {
     flex-grow: 1;
     margin: .5%;
-    border: outset 3px white;
+    border: outset 3px #e6e6e6;
     width: 40%; }
     .footer__div h4 {
       font-size: 1em;
@@ -174,14 +174,14 @@ footer {
 
 .button {
   background-color: #a4161a;
-  border: outset 3px white;
+  border: outset 3px #e6e6e6;
   border-radius: 10px; }
   .button a {
     text-decoration: none; }
   .button:hover {
     background-color: #660708;
-    color: #e1dfe0;
-    border: outset 3px #e1dfe0; }
+    color: #cdcdcd;
+    border: outset 3px #cdcdcd; }
   .button:active {
     opacity: .8; }
   .button-index {
@@ -201,7 +201,7 @@ footer {
 .button-up {
   display: inline-block;
   text-decoration: none;
-  border: outset 3px white;
+  border: outset 3px #e6e6e6;
   padding: 5px;
   margin: 10px; }
   .button-up:hover {
@@ -225,7 +225,7 @@ footer {
   .main-image img {
     width: 100%; }
   .main-image-text {
-    background-color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(205, 205, 205, 0.5);
     color: #0b090a;
     border-radius: 50px;
     padding: 0 15px;
@@ -237,7 +237,7 @@ footer {
   .main-image-title {
     background-color: transparent;
     color: #0b090a;
-    text-shadow: 2px 2px 5px #e5383b;
+    text-shadow: 2px 2px 5px #9c382d;
     font-size: 3.5rem;
     font-weight: 500;
     letter-spacing: 2px; }
@@ -261,7 +261,7 @@ footer {
   .main-image2 img {
     width: 100%; }
   .main-image2-text {
-    background-color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(205, 205, 205, 0.5);
     color: #0b090a;
     border-radius: 50px;
     padding: 0 15px;
@@ -272,12 +272,12 @@ footer {
     transform: translate(-50%, -50%); }
     .main-image2-text h3 {
       font-size: 1.8em;
-      text-shadow: 2px 2px 5px #e5383b; }
+      text-shadow: 2px 2px 5px #9c382d; }
   .main-image2-title {
     background-color: transparent;
     padding: 10px;
     color: #0b090a;
-    text-shadow: 2px 2px 5px #e5383b;
+    text-shadow: 2px 2px 5px #9c382d;
     font-size: 2.5em;
     font-weight: 400;
     letter-spacing: 2px; }
@@ -362,7 +362,7 @@ footer {
     .main-menu-item .accordion-header .accordion-button {
       background-color: rgba(186, 24, 27, 0.8);
       font-size: 2.5em;
-      color: #e1dfe0;
+      color: #cdcdcd;
       text-shadow: 2px 2px 5px #0b090a;
       letter-spacing: 2px;
       text-align: center;
@@ -370,12 +370,12 @@ footer {
       top: 10%;
       width: 100%; }
       .main-menu-item .accordion-header .accordion-button:focus {
-        box-shadow: 0 0 5px 5px #e1dfe0; }
+        box-shadow: 0 0 5px 5px #cdcdcd; }
     .main-menu-item .accordion-collapse {
       background-color: #a4161a; }
       .main-menu-item .accordion-collapse .accordion-body p:first-child {
         text-align: center;
-        border-bottom: solid 1px #e1dfe0;
+        border-bottom: solid 1px #cdcdcd;
         padding: 20px; }
       .main-menu-item .accordion-collapse .accordion-body h3 {
         font-size: 1.5em; }
@@ -397,7 +397,7 @@ footer {
     padding: 5px;
     margin: 30px;
     text-align: right;
-    border-right: solid 1px #e1dfe0;
+    border-right: solid 1px #cdcdcd;
     font-size: 1.5em; }
 
 /* Reservas */
@@ -426,7 +426,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: #e6e6e6;
     font-weight: 300; }
     .main-reservas-form div {
       margin: 10px; }
@@ -435,13 +435,13 @@ footer {
     .main-reservas-form .form-datos {
       width: 100%;
       padding: 10px;
-      border: outset 3px white;
+      border: outset 3px #e6e6e6;
       border-radius: 10px;
       background-color: #0b090a;
       margin-bottom: 10px;
       font-size: 1em; }
       .main-reservas-form .form-datos:focus {
-        border: outset 3px #e1dfe0;
+        border: outset 3px #cdcdcd;
         background-color: #161a1d; }
     .main-reservas-form .form-comensales {
       text-align: center;
@@ -450,13 +450,13 @@ footer {
         font-size: 1.5em; }
       .main-reservas-form .form-comensales .form-selection {
         padding: 10px;
-        border: outset 3px white;
+        border: outset 3px #e6e6e6;
         border-radius: 10px;
         background-color: #0b090a; }
         .main-reservas-form .form-comensales .form-selection option {
-          color: white; }
+          color: #e6e6e6; }
         .main-reservas-form .form-comensales .form-selection:focus {
-          border: outset 3px #e1dfe0;
+          border: outset 3px #cdcdcd;
           background-color: #161a1d; }
     .main-reservas-form .form-turno {
       font-size: 1.5em;
@@ -464,10 +464,10 @@ footer {
       .main-reservas-form .form-turno .form-check {
         margin-left: 10%; }
         .main-reservas-form .form-turno .form-check-input:checked {
-          background-color: #e5383b;
-          border-color: #e5383b; }
+          background-color: #9c382d;
+          border-color: #9c382d; }
         .main-reservas-form .form-turno .form-check-input:focus {
-          box-shadow: 0 0 2px 2px #e5383b; }
+          box-shadow: 0 0 2px 2px #9c382d; }
         .main-reservas-form .form-turno .form-check label {
           font-size: 1em; }
     .main-reservas-form .form-lugar {
@@ -476,10 +476,10 @@ footer {
       .main-reservas-form .form-lugar .form-check {
         margin-left: 10%; }
         .main-reservas-form .form-lugar .form-check-input:checked {
-          background-color: #e5383b;
-          border-color: #e5383b; }
+          background-color: #9c382d;
+          border-color: #9c382d; }
         .main-reservas-form .form-lugar .form-check-input:focus {
-          box-shadow: 0 0 2px 2px #e5383b; }
+          box-shadow: 0 0 2px 2px #9c382d; }
         .main-reservas-form .form-lugar .form-check label {
           font-size: 1em; }
     .main-reservas-form .form-aclaraciones {
@@ -490,12 +490,12 @@ footer {
         text-align: center;
         width: 100%;
         height: 150px;
-        border: outset 3px white;
+        border: outset 3px #e6e6e6;
         border-radius: 10px;
         background: linear-gradient(to bottom right, #161a1d, #0b090a 40%);
         font-size: 1em; }
         .main-reservas-form .form-aclaraciones input:focus {
-          border: outset 3px #e1dfe0;
+          border: outset 3px #cdcdcd;
           background: #161a1d; }
 
 /* Responsive */
@@ -636,7 +636,7 @@ footer {
   .nav-item {
     letter-spacing: 3px;
     padding: 10px;
-    border-bottom: solid 1px #e1dfe0;
+    border-bottom: solid 1px #cdcdcd;
     border-radius: 0; }
     .nav-item:last-child {
       position: static;
