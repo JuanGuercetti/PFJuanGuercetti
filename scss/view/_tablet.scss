@@ -28,10 +28,6 @@
 		margin-bottom: 5px;
 	}
 
-	.nav-logo {
-		height: 80%;
-	}
-
 	.nav-item, .nav-item a {
 		letter-spacing: 0;
 		padding: 2px;
@@ -129,11 +125,7 @@
 		display: block;
 	}
 
-	#quienes-innerImg-1 {
-		width: 100%;
-	}
-
-	#quienes-innerImg-2 {
+	#quienes-innerImg-1, #quienes-innerImg-2 {
 		width: 100%;
 	}
 
@@ -187,6 +179,7 @@
 
 		&-form {
 			width: 100%;
+			background-image: none;
 
 			div {
 				margin: 10px;

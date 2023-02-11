@@ -17,8 +17,9 @@
 			display: inline;
 
 			img {
-				@include tamanio(26px,20px)
+				@include tamanio(26px,20px);
 				margin: 0 3px;
+
 				&:hover {
 					opacity: .5;
 				}
@@ -40,20 +41,20 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
-			}
+		}
 
 		li {
 			grid-area: foot;
 			margin: 0 10px;
-			}
+		}
 
 		p {
-		font-size: 18px;
-		width: 100%;
-		flex-shrink: 0;
-		grid-area: head;
-		text-align: center;
-		margin-bottom: 3px;
+			font-size: 18px;
+			width: 100%;
+			flex-shrink: 0;
+			grid-area: head;
+			text-align: center;
+			margin-bottom: 3px;
 		}
 
 		i {

@@ -3,6 +3,7 @@
 	* {
 		font-size: 12px;
 	}
+
 	.titulo {
 		font-size: map-get($fontSizes, subt);
 		letter-spacing: 0;
@@ -22,7 +23,7 @@
 	.navbar {
 		background: map-get($colores,ppal2);
 
-		.navbar-brand-responsive {
+		&-brand-responsive {
 			display: inline;
 			font-size: map-get($fontSizes,subsubt);
 		}
@@ -46,10 +47,15 @@
 		padding: 10px;
 		border-bottom: map-get($bordes,secSimple);
 		border-radius: 0;
+		font-size: map-get($fontSizes, parrafoL);
 
 		&:last-child {
 			position: static;
 			border: none;
+		}
+
+		li a {
+			font-size: map-get($fontSizes, parrafoM)
 		}
 	}
 
@@ -99,6 +105,7 @@
 			h3 {
 				font-size: map-get($fontSizes,subsubt);
 			}
+			
 			p {
 				font-size: map-get($fontSizes,parrafoM);
 			}

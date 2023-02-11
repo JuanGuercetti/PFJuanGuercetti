@@ -4,16 +4,18 @@
 @import "../scss/variables/bordes";
 @import "../scss/variables/mixins";
 
-/* Reset */
+/* Normalize / Reset */
 @import "../scss/normalize/reset";
 @import "../scss/normalize/estilos";
 
-/* Componentes del layout */
+/* Componentes */
+@import "../scss/components/button";
+
+/* Layout */
 @import "../scss/layout/body";
 @import "../scss/layout/header";
 @import "../scss/layout/nav";
 @import "../scss/layout/footer";
-@import "../scss/components/button";
 
 
 /* Páginas */
